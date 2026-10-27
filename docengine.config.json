@@ -1,0 +1,11 @@
+{
+  "branding": {
+    "firName": "CZQM/CZQX FIR",
+    "footer": "CZQM/CZQX FIR Policy Library (placeholder letterhead)"
+  },
+  "levels": ["Section", "Subsection", "Paragraph", "Subparagraph"],
+  "extensions": {
+    "required": "boolean",
+    "public?": "boolean"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "czqm-policies",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "CZQM/CZQX FIR policy documents, built with docengine.",
+  "scripts": {
+    "validate": "docengine validate",
+    "build": "docengine build"
+  },
+  "devDependencies": {
+    "docengine": "file:../document-engine/packages/cli"
+  }
+}

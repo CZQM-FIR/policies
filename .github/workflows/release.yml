@@ -1,0 +1,14 @@
+# PLACEHOLDER caller workflow: one GitHub Release per document whose version changed.
+# TODO: replace OWNER/docengine with the final engine repo owner/name, and pin a released tag.
+name: Policy release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: OWNER/docengine/.github/workflows/release.yml@v0 # TODO: final owner/name and pinned tag
