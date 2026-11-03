@@ -2,6 +2,7 @@
   "name": "czqm-policies",
   "private": true,
   "version": "0.0.0",
+  "packageManager": "pnpm@10.34.9",
   "type": "module",
   "description": "CZQM/CZQX FIR policy documents, built with docengine.",
   "scripts": {
@@ -9,6 +10,6 @@
     "build": "docengine build"
   },
   "devDependencies": {
-    "docengine": "file:../document-engine/packages/cli"
+    "@jackkoskie/docengine": "0.1.1"
   }
 }

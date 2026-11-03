@@ -1,9 +1,7 @@
 # czqm-policies
 
-Policy documents for the CZQM/CZQX FIR, written in Markdown and built into PDFs with [docengine](../document-engine). This repo contains documents and branding only; the engine lives in its own repo.
+Policy documents for the CZQM/CZQX FIR, written in Markdown and built into PDFs with [docengine](https://github.com/jackkoskie/docengine). This repo contains documents and branding only; the engine lives in its own repo.
 
-> TODO: `package.json` currently points at the engine with a local `file:../document-engine/packages/cli` path. Switch `docengine` to the published version (exact pin, plus a committed lockfile) once it is released. Also fill in the final engine repo owner/name in `.github/workflows/*.yml`.
->
 > The letterhead is a placeholder: real CZQM logo, colours and fonts are not set yet (see `docengine.config.json`).
 
 ## Layout

@@ -1,4 +1,3 @@
-# TODO: replace OWNER/docengine with the final engine repository owner/name, and pin a released tag instead of v1.
 name: Release
 
 on:
@@ -10,10 +9,10 @@ permissions:
 
 jobs:
   release:
-    uses: OWNER/docengine/.github/workflows/release.yml@v1
+    uses: jackkoskie/docengine/.github/workflows/release.yml@v0.1.1
     with:
-      engine-repository: OWNER/docengine
-      engine-ref: v1
+      engine-repository: jackkoskie/docengine
+      engine-ref: v0.1.1
     permissions:
       contents: write
       pull-requests: read

@@ -1,5 +1,5 @@
 ---
-# yaml-language-server: $schema=https://raw.githubusercontent.com/OWNER/docengine/main/schema/frontmatter.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jackkoskie/docengine/v0.1.1/schema/frontmatter.schema.json
 title: FIR General Policy
 short: fir-general-policy
 group: general
