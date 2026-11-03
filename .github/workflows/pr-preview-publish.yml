@@ -1,0 +1,25 @@
+# TODO: replace OWNER/docengine with the final engine repository owner/name, and pin a released tag instead of v1.
+# Trusted publish step. Runs after "PR preview" finishes, in the base repository, with write access.
+# It never checks out pull request code. Fork PRs are safe because of this split.
+name: PR preview publish
+
+on:
+  workflow_run:
+    workflows: ["PR preview"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    if: github.event.workflow_run.event == 'pull_request'
+    uses: OWNER/docengine/.github/workflows/pr-preview-publish.yml@v1
+    with:
+      engine-repository: OWNER/docengine
+      engine-ref: v1
+    permissions:
+      contents: write
+      pull-requests: write
+      statuses: write
+      actions: read

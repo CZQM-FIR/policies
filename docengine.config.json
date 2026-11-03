@@ -1,11 +1,71 @@
 {
   "branding": {
     "firName": "CZQM/CZQX FIR",
-    "footer": "CZQM/CZQX FIR Policy Library (placeholder letterhead)"
+    "footer": "Moncton / Gander FIR - Canada's Gateway to the East Coast",
+    "colors": {
+      "highlight": "#92d050"
+    }
   },
-  "levels": ["Section", "Subsection", "Paragraph", "Subparagraph"],
-  "extensions": {
-    "required": "boolean",
-    "public?": "boolean"
+  "cover": {
+    "firName": "Moncton / Gander FIR",
+    "logo": "assets/czqm-fir-logo.png",
+    "colors": {
+      "primary": "#0057a8",
+      "accent": "#666666"
+    },
+    "template": "templates/cover.typ",
+    "notice": "For Flight Simulation Use Only"
+  },
+  "fonts": {
+    "paths": [
+      "assets/fonts"
+    ],
+    "ignoreSystemFonts": true
+  },
+  "toc": {
+    "depth": 3
+  },
+  "headings": {
+    "format": "{id} {title}"
+  },
+  "numbering": {
+    "scheme": "custom",
+    "topLevels": 2,
+    "levels": [
+      {
+        "label": "Section",
+        "name": "section",
+        "kind": "number"
+      },
+      {
+        "label": "Subsection",
+        "name": "subsection",
+        "kind": "number",
+        "joiner": ".",
+        "showLabel": false,
+        "pageBreak": false
+      },
+      {
+        "label": "Paragraph",
+        "name": "paragraph",
+        "kind": "lower-letter",
+        "joiner": "()"
+      },
+      {
+        "label": "Subparagraph",
+        "name": "subparagraph",
+        "kind": "lower-roman",
+        "joiner": "()",
+        "italic": true,
+        "indent": 1
+      },
+      {
+        "label": "Clause",
+        "name": "clause",
+        "kind": "upper-roman",
+        "joiner": "()",
+        "indent": 2
+      }
+    ]
   }
 }

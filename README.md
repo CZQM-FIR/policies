@@ -9,15 +9,16 @@ Policy documents for the CZQM/CZQX FIR, written in Markdown and built into PDFs 
 ## Layout
 
 - `documents/<group>/<short>.md`: one document per file. Images go next to it in `documents/<group>/images/`.
-- `docengine.config.json`: branding (FIR name, footer), level labels, and the frontmatter extensions `required` and `public`.
+- `docengine.config.json`: branding (FIR name, footer), cover, fonts, table of contents and heading settings.
+- `assets/fonts/`: bundled Liberation Sans (SIL OFL 1.1, see `LICENSE-NOTICE.md`) used by `templates/cover.typ`. The config sets `fonts.ignoreSystemFonts`, so PDFs do not depend on fonts installed on the machine.
 - `dist/`: build output (git-ignored).
 
 ## How to author
 
 1. Branch from `main`.
-2. Edit or add `documents/<group>/<short>.md`. Frontmatter needs `title`, `short`, `group`, `version`, `effectiveDate`; `description`, `expiryDate`, `required`, `public` are optional. `group` and `short` must match the file path.
-3. Clauses start with a bracketed ID: `[100]` Section, `[100.1]`, `[100.1.a]`, `[100.1.a.i]`, then the cycle repeats (number, letter, roman). A parent must exist and siblings are sequential. Repeal with `[100.4] [repealed]`; never reuse an ID.
-4. Reference clauses with `[[100.3]]` (or `[[other-doc#100.3]]`) and figures with `[[fig:key]]`. Figures: `![Caption and alt text](images/name.png){#fig:key width=60%}`.
+2. Edit or add `documents/<group>/<short>.md`. Frontmatter needs `title`, `short`, `group`, `version`, `effectiveDate`; `description` and `expiryDate` are optional. `group` and `short` must match the file path.
+3. Content nodes start with a bracketed ID carrying the whole path: Section `[1]`, Subsection `[1.1]`, Paragraph `[1.1(a)]`, Subparagraph `[1.1(a)(i)]`, Clause `[1.1(a)(i)(I)]` (the deepest level). A title goes on the ID line: `[1.1] # Title`. Sections and Subsections are headings and ascend within a document (gaps are allowed); a Subsection does not have to repeat its Section. Paragraphs, Subparagraphs and Clauses are contiguous from `(a)` / `(i)` / `(I)` and their parent must exist. Repeal with `[1.1(c)] [repealed]`; never reuse an ID.
+4. Reference nodes with `[[1.1(a)]]` (or `[[other-doc#1.1]]`) and figures with `[[fig:key]]`. Figures: `![Caption and alt text](images/name.png){#fig:key width=60%}`.
 5. Bump `version` whenever the body changes.
 6. Check locally:
 
@@ -42,3 +43,7 @@ On merge to `main`, CI creates one GitHub Release per document whose version cha
 5. Tick the "Uploaded to DMS" checkbox in the release body. Unticked releases are the upload queue.
 
 Nothing is published automatically.
+
+## License
+
+All rights reserved. Internal use only. The CZQM name and logo are not licensed for reuse. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
