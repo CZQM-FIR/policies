@@ -1,0 +1,18 @@
+{
+  "headSha": "6a75027bbaa2584e4d7cd3cc92b9785b4cb0b01f",
+  "builtAt": "2026-11-09T19:05:12.962Z",
+  "documents": [
+    {
+      "group": "sop",
+      "short": "terminal-operating-practices",
+      "version": "1.2",
+      "title": "Terminal Operating Practices"
+    },
+    {
+      "group": "sop",
+      "short": "tower-operating-practices",
+      "version": "1.3",
+      "title": "Control Tower Operating Practices"
+    }
+  ]
+}
