@@ -31,7 +31,7 @@ description: Operating practices for CZQM controllers providing terminal control
 | --- | --- | --- |
 | 1.0 | 2025-05-24 0300Z | initial release |
 | 1.1 | 2025-06-09 0300Z | Errata corrected |
-| 1.2 | To be confirmed | Added Holding section ([[8.5]]). Minor edits throughout. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.2 | To be confirmed | Added Holding section ([[8.5]]). Minor edits throughout. Placeholders added for wake turbulence separation ([[6.2]]), STAR amendment phraseology ([[9.9]]) and missed approach phraseology ([[9.10]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -126,6 +126,10 @@ description: Operating practices for CZQM controllers providing terminal control
 [6.1(b)] When logged in as _APP you are deemed to be providing Terminal service, and the 3 nm lateral separation standard applies.
 
 [6.1(c)] If logged in as a _CTR and controlling a designated terminal area, controllers should provide 5 NM separation unless using a separate window to provide terminal service, scaled to a normal Terminal range.
+
+[6.2] # Wake Turbulence Separation
+
+[6.2(a)] (reserved)
 
 [7] # Understanding Aircraft Performance
 
@@ -392,6 +396,14 @@ CLEARED TO THE HALIFAX AIRPORT ILS RUNWAY 23 APPROACH DUTIR TRANSITION
 - PRM4211, VIA DIRECT DUTIR, CLEARED HALIFAX AIRPORT ILS RUNWAY 2 3 APPROACH
 
 [9.8(d)] Do not clear a VFR aircraft for a simulated approach. You may, however, approve a simulated approach: GMPC ILS 23 APPROACH APPROVED. MAINTAIN V F R.
+
+[9.9] # STAR Amendments
+
+[9.9(a)] (reserved)
+
+[9.10] # Missed Approach
+
+[9.10(a)] (reserved)
 
 [10] # Unit-Specific Guidance
 
