@@ -32,7 +32,7 @@ description: Operating practices for CZQM controllers providing services from th
 | 1.0         | 2025-05-24 0300Z | Initial version |
 | 1.1         | 2025-08-15 0300Z | Modification to 4.1.2.2 compulsory routes to reflect real world changes |
 | 1.2         | 2025-12-27 0400Z | Editorial. Change markups. Further mods to 4.1.2.2 mandatory routes. Additional procedures added for several airports |
-| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Tower release (TR) authority ([[3.4]]) and approximate take-off distances for each airport (chapter [[4]], new [[4.6]] CYYR and [[4.7]] LFVP) incorporated from the former reference documents. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Tower release (TR) authority ([[3.4]]) and approximate take-off distances for each airport (chapter [[4]], new [[4.6]] CYYR and [[4.7]] LFVP) incorporated from the former reference documents. Published LAHSO landing distances added for CYHZ ([[4.1(c)]]) and CYQM ([[4.2(e)]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -243,6 +243,12 @@ CYHZ Compulsory outbound Routes – Source: Canada Flight Supplement / Planning 
 | 24 | 10 001 ft | F 6100 ft; E 3501 ft |
 | 11 | 8000 ft | C 5500 ft; B 3700 ft |
 | 29 | 8000 ft | B 4300 ft; C 2500 ft |
+
+[4.2(e)] Land and Hold Short Operations (LAHSO)
+
+[4.2(e)(i)] Land And Hold Short Operations (LAHSO) are published for Runway 24 to hold short of runway 11/29. The published landing distance available (LDA) for LAHSO from the threshold of runway 24 to short of runway 11/29 is 8841 ft.
+
+[4.2(e)(ii)] Conditions for use and phraseology are as for CYHZ ([[4.1(c)(ii)]] and [[4.1(c)(iii)]]), using 8841 FEET AVAILABLE TO THE INTERSECTION.
 
 [4.3] # CYFC
 
