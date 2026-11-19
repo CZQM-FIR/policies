@@ -30,7 +30,7 @@ description: Airspace, sectorization and position reference for the CZQM/CZQX (M
 | Revision ID | Effective Date   | Description of Change |
 | ----------- | ---------------- | --------------------- |
 | 2.0         | 2025-11-29 0400Z | Initial release |
-| 2.1         | To be confirmed  | Cross the Pond (CTP) high level sectorization added ([[5.1(c)]]). Digby (CZQM_DG_CTR) frequency corrected to 123.8 per the sector file. Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
+| 2.1         | To be confirmed  | Cross the Pond (CTP) high level sectorization added ([[5.1(c)]]). Frequencies aligned with the FIR frequency file (Liveatc.txt): Digby CZQM_DG_CTR 123.8, CZQM_L_APP 119.2, LFVP_APP 119.1 / LFVP_TWR 118.5, CTP CZQM_4_CTR 123.7. Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -66,11 +66,11 @@ The following table covers the normal CZQM / CZQX working positions and their pa
 | ^              | CYQM_APP      | QMA     | 124.4     |                                |
 | ^              | CYSJ_APP      | SJA     | 124.3     |                                |
 | ^              | CYZX_APP      | ZXA     | 120.6     |                                |
-| ^              | CZQM_L_APP    | QML     | 124.4     | Consolidated ‘mega’ terminals  |
+| ^              | CZQM_L_APP    | QML     | 119.2     | Consolidated ‘mega’ terminals  |
 | ^              | CYQX_APP      | QXA     | 128.5     |                                |
 | ^              | CYYR_APP      | YRA     | 119.5     |                                |
 | ^              | CYYT_APP      | YTA     | 133.15    |                                |
-| ^              | LFVP_APP      | VA      | 118.5     |                                |
+| ^              | LFVP_APP      | VA      | 119.1     |                                |
 | Tower          | CYFC_TWR      | FCT     | 119.0     |                                |
 | ^              | CYHZ_TWR      | HZT     | 118.4     |                                |
 | ^              | CYQM_TWR      | QMT     | 120.8     |                                |
@@ -78,7 +78,7 @@ The following table covers the normal CZQM / CZQX working positions and their pa
 | ^              | CYQX_TWR      | QXT     | 118.1     |                                |
 | ^              | CYYR_TWR      | YRT     | 119.1     |                                |
 | ^              | CYYT_TWR      | YTT     | 120.6     |                                |
-| ^              | LFVP_TWR      | VT      | 119.1     |                                |
+| ^              | LFVP_TWR      | VT      | 118.5     |                                |
 | Ground         | CYFC_GND      | FCG     | 121.7     |                                |
 | ^              | CYHZ_GND      | HZG     | 121.9     |                                |
 | ^              | CYQM_GND      | QMG     | 121.8     |                                |
@@ -159,7 +159,7 @@ Sector consolidations are meant to remove traffic progressively from the main Ce
 | CZQM_1_CTR | QM1         | 123.9     |
 | CZQM_2_CTR | QM2         | 132.7     |
 | CZQM_3_CTR | QM3         | 135.65    |
-| CZQM_4_CTR | QM4         | 126.45    |
+| CZQM_4_CTR | QM4         | 123.7     |
 
 See [[fig:ctp-czqm]].
 
