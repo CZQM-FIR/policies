@@ -318,13 +318,13 @@ Examples of appropriate controller information include:
 
 [4.10(g)(ii)] Controllers who no-show a reservation without cancelling it may be barred from making another reservation for 72 hours.
 
-[4.10(h)] A reservation may be cancelled prior to the reservation beginning.
+[4.10(h)] A reservation may be cancelled at any time before it begins.
 
-[4.10(h)(i)] A reservation cancelled at least 2 hours before it was scheduled to start will not count against the limits outlined in [[4.10(e)]].
+[4.10(h)(i)] A reservation cancelled at least 2 hours before its scheduled start does not count against the limits in [[4.10(e)]]
 
-[4.10(h)(ii)] A reservation cancelled less than 2 hours before it was scheduled to start will count as a no-show as outlined in [[4.10(g)]].
+[4.10(h)(ii)] A reservation cancelled less than 2 hours before its scheduled start is a no-show under [[4.10(g)(ii)]].
 
-[4.10(i)] At the end of a reservation period, the position shall be relinquished to any qualified controller, solo authorized student, or Instructor/mentor-student pair who wishes to control it.
+[4.10(i)] At the end of a reservation period, the position shall be relinquished within a reasonable time, workload permitting, to any qualified controller, solo authorized student, or Instructor/mentor-student pair who wishes to control it.
 
 [4.10(j)] FIR staff may override reservations but must justify, document, and inform the controller of the reasons for their decision.
 
