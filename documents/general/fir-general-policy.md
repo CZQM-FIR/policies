@@ -3,7 +3,7 @@
 title: FIR General Policy
 short: fir-general-policy
 group: general
-version: "1.1"
+version: "1.0"
 effectiveDate: 2025-05-24
 effectiveTime: 0300Z
 cover: true
@@ -20,15 +20,14 @@ description: Policy for the CZQM/CZQX (Moncton / Gander) VATSIM FIR, effective 2
 | Name           | CZQM FIR General Policy |
 | Identification | CZQM-FGP                |
 | Type           | Policy                  |
-| Revision       | 1.1                     |
+| Revision       | 1.0                     |
 | Effective Date | XXXXXX                  |
 
 [1.2] # Revision Records
 
-| Revision ID | Effective Date   | Description of Change                                                            |
-| ----------- | ---------------- | -------------------------------------------------------------------------------- |
-| 1.0         | 2025-05-24 0300Z | Initial Release of this format. Replaces SOP Amendment 4.                        |
-| 1.1         | XXXXXX           | Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking |
+| Revision ID | Effective Date   | Description of Change                                     |
+| ----------- | ---------------- | --------------------------------------------------------- |
+| 1.0         | 2025-05-24 0300Z | Initial Release of this format. Replaces SOP Amendment 4. |
 
 [2] # Introduction
 
