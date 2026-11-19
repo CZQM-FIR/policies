@@ -85,6 +85,8 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [4.2(b)] Standard Instrument Departures (SIDs) are published for some aerodromes within this FIR and are normally applied. If required, the terminal controller may instruct the tower to issue alternative departure instructions such as a new heading or altitude that differs from the published SID.
 
+[4.2(c)] Tower release (TR) authority for IFR departures from controlled aerodromes is set out in the current Tower Operating Practices (_CZQM-TWR§3.4_).
+
 [4.3] # Aircraft Arriving / Departing at uncontrolled aerodromes
 
 [4.3(a)] An “uncontrolled aerodrome” refers to an aerodrome that is not served by an air traffic control tower. At these aerodromes, advisory services may, in some cases, be provided by a flight service station.
