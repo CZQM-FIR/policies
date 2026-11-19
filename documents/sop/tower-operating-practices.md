@@ -32,7 +32,7 @@ description: Operating practices for CZQM controllers providing services from th
 | 1.0         | 2025-05-24 0300Z | Initial version |
 | 1.1         | 2025-08-15 0300Z | Modification to 4.1.2.2 compulsory routes to reflect real world changes |
 | 1.2         | 2025-12-27 0400Z | Editorial. Change markups. Further mods to 4.1.2.2 mandatory routes. Additional procedures added for several airports |
-| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Tower release (TR) authority ([[3.4]]) and approximate take-off distances for each airport (chapter [[4]], new [[4.6]] CYYR) incorporated from the former reference documents. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Tower release (TR) authority ([[3.4]]) and approximate take-off distances for each airport (chapter [[4]], new [[4.6]] CYYR and [[4.7]] LFVP) incorporated from the former reference documents. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -97,7 +97,7 @@ description: Operating practices for CZQM controllers providing services from th
 
 [3.3(i)] From 19 November 2026 pilots must state the ATIS identifier on initial contact (CAR 602.31(1)(d)). Omit wind and altimeter from taxi and initial clearances when they have; if a pilot reports only “with the ATIS”, confirm the letter.
 
-[3.3(j)] Approximate distance available for take-off is given for each airport in chapter [[4]]: the full runway length, and the distance remaining from each intersection used for departure ([[4.1(h)]], [[4.2(d)]], [[4.3(c)]], [[4.4(e)]], [[4.5(b)]], [[4.6(a)]]). Since these are approximations, controllers should use “APPROXIMATE DISTANCE AVAILABLE …” phraseology.
+[3.3(j)] Approximate distance available for take-off is given for each airport in chapter [[4]]: the full runway length, and the distance remaining from each intersection used for departure ([[4.1(h)]], [[4.2(d)]], [[4.3(c)]], [[4.4(e)]], [[4.5(b)]], [[4.6(a)]], [[4.7(a)]]). Since these are approximations, controllers should use “APPROXIMATE DISTANCE AVAILABLE …” phraseology.
 
 [3.4] # Tower Release (TR) Authority
 
@@ -366,10 +366,19 @@ Aircraft will be taxied to the Central De-icing Facility via TWY H to hold short
 
 | Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
 | ------ | --------------------- | ---------------------------------------------- |
-| 16 | 9580 ft | N 6000 ft |
-| 34 | 9580 ft | 26 7200 ft; N 3000 ft |
-| 08 | 11 051 ft | D 7800 ft; C 6000 ft; B 3000 ft |
-| 26 | 11 051 ft | 34 9700 ft; B 7800 ft; C 4800 ft; D 3000 ft |
+| 15 | 9584 ft | N 6000 ft |
+| 33 | 9584 ft | 26 7200 ft; N 3000 ft |
+| 08 | 11 052 ft | D 7800 ft; C 6000 ft; B 3000 ft |
+| 26 | 11 052 ft | 15/33 9700 ft; B 7800 ft; C 4800 ft; D 3000 ft |
+
+[4.7] # LFVP
+
+[4.7(a)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]]. No intersection take-off distances are published for LFVP.
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 08 | 6299 ft (1920 m) | Not published |
+| 26 | 6299 ft (1920 m) | Not published |
 
 [5] # Phraseologies
 Phraseology in this chapter follows NAV CANADA guidance material, IFR and VFR phraseology guides, with the AIM RAC 4 examples where they exist. Numbers are spoken as grouped digits (TWO-THREE). Unit identification is omitted after initial contact. Where the CZQM/CZQX Phraseology Guide and this chapter differ, this chapter governs tower positions.
