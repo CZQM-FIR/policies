@@ -32,7 +32,7 @@ description: Operating practices for CZQM controllers providing services from th
 | 1.0         | 2025-05-24 0300Z | Initial version |
 | 1.1         | 2025-08-15 0300Z | Modification to 4.1.2.2 compulsory routes to reflect real world changes |
 | 1.2         | 2025-12-27 0400Z | Editorial. Change markups. Further mods to 4.1.2.2 mandatory routes. Additional procedures added for several airports |
-| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Tower release (TR) authority ([[3.4]]) and approximate take-off distances for each airport (chapter [[4]], new [[4.6]] CYYR) incorporated from the former reference documents. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -96,6 +96,16 @@ description: Operating practices for CZQM controllers providing services from th
 [3.3(h)] CLEARED FOR IMMEDIATE TAKEOFF is a separation tool. It means one continuous movement from the hold line into the take-off roll with no stop on the runway, and it is used only when the gap exists only if the aircraft rolls now. Determine ability first (ARE YOU ABLE AN IMMEDIATE DEPARTURE?) or include IF UNABLE, HOLD SHORT RUNWAY (number). Cancel with TAKE-OFF CLEARANCE CANCELLED (reason) if the gap collapses before the roll. See [[5.4]].
 
 [3.3(i)] From 19 November 2026 pilots must state the ATIS identifier on initial contact (CAR 602.31(1)(d)). Omit wind and altimeter from taxi and initial clearances when they have; if a pilot reports only “with the ATIS”, confirm the letter.
+
+[3.3(j)] Approximate distance available for take-off is given for each airport in chapter [[4]]: the full runway length, and the distance remaining from each intersection used for departure ([[4.1(h)]], [[4.2(d)]], [[4.3(c)]], [[4.4(e)]], [[4.5(b)]], [[4.6(a)]]). Since these are approximations, controllers should use “APPROXIMATE DISTANCE AVAILABLE …” phraseology.
+
+[3.4] # Tower Release (TR) Authority
+
+[3.4(a)] CYHZ. Tower release (TR) is automatically granted once confirmation of the active runway is communicated. Should YHZ_TWR utilize a non-active runway for departure they must obtain a TR from the position covering YHZ_APP.
+
+[3.4(b)] All other CZQM/CZQX airports require prior coordination of a TR. The radar position covering terminal or departure services may authorize blanket TR authority depending on their circumstances.
+
+[3.4(c)] A TR request may be verbally processed or through the use of the VATCANSitu release request function. If the Tower prefers VATCANSitu, inform the departure controller so they can be vigilant of requests.
 
 [4] # Airport-Specific Guidance
 
@@ -192,6 +202,15 @@ CYHZ Compulsory outbound Routes – Source: Canada Flight Supplement / Planning 
 
 ![Halifax VFR Terminal Procedures Chart](images/cyhz-vtpc.png){#fig:cyhz-vtpc width=90%}
 
+[4.1(h)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 05 | 10 500 ft | B 9100 ft; C 6500 ft; D 2500 ft |
+| 23 | 10 500 ft | C 4000 ft; D 8000 ft; E 9100 ft |
+| 14 | 7700 ft | H 6100 ft; F 4500 ft; 23 3900 ft |
+| 32 | 7700 ft | F 3000 ft; 23 3700 ft; M 6100 ft |
+
 [4.2] # CYQM
 
 [4.2(a)] Layout
@@ -215,6 +234,15 @@ CYHZ Compulsory outbound Routes – Source: Canada Flight Supplement / Planning 
 [4.2(c)(ii)] VFR Reporting Points. [[fig:cyqm-vfr-points]] itemizes the VFR reporting points published for the Moncton area. These are depicted on the YQM_TWR GRP ASR.
 
 ![CYQM VFR Reporting Points](images/cyqm-vfr-points.png){#fig:cyqm-vfr-points width=100%}
+
+[4.2(d)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 06 | 10 001 ft | E 6500 ft; F 3900 ft |
+| 24 | 10 001 ft | F 6100 ft; E 3501 ft |
+| 11 | 8000 ft | C 5500 ft; B 3700 ft |
+| 29 | 8000 ft | B 4300 ft; C 2500 ft |
 
 [4.3] # CYFC
 
@@ -261,6 +289,15 @@ CYHZ Compulsory outbound Routes – Source: Canada Flight Supplement / Planning 
 
 ![Fredericton VFR Training Areas](images/cyfc-training.png){#fig:cyfc-training width=70%}
 
+[4.3(c)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 27 | 8005 ft | 33 6100 ft |
+| 09 | 8005 ft | 33 2000 ft |
+| 15 | 6000 ft | C 4700 ft; B 3800 ft; 27 2600 ft |
+| 33 | 6000 ft | 27 3400 ft; B 2200 ft; C 1300 ft |
+
 [4.4] # CYYT
 
 [4.4(a)] Layout
@@ -293,6 +330,19 @@ Aircraft will be taxied to the Central De-icing Facility via TWY H to hold short
 
 ![CYYT VFR Terminal Procedures Chart](images/cyyt-vtpc.png){#fig:cyyt-vtpc width=90%}
 
+[4.4(e)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 28 | 8502 ft | 02 7900 ft; 34 5200 ft |
+| 10 | 8502 ft | 34 3000 ft; 02 N/A |
+| 34 | 7005 ft | 02 5400 ft; 10 N/A |
+| 16 | 7005 ft | 10 6600 ft; J 4800 ft; G 3000 ft |
+| 02[^cyyt-0220] | 5000 ft | 34 3600 ft; C 1800 ft |
+| 20[^cyyt-0220] | 5000 ft | B 4800 ft |
+
+[^cyyt-0220]: Runway 02/20 does not appear on the current aerodrome chart; these values are to be verified.
+
 [4.5] # CYQX
 
 [4.5(a)] Gander, CYQX, is a shadow of its former self. Note the backtracks required for several runways. There are several abandoned areas. There is no CDF. See [[fig:cyqx-airport]] and [[fig:cyqx-vtpc]].
@@ -300,6 +350,26 @@ Aircraft will be taxied to the Central De-icing Facility via TWY H to hold short
 ![CYQX Airport Layout](images/cyqx-airport.jpeg){#fig:cyqx-airport width=80%}
 
 ![Gander VFR Terminal Procedures Chart](images/cyqx-vtpc.png){#fig:cyqx-vtpc width=100%}
+
+[4.5(b)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 31 | 8900 ft | D 2400 ft; E 4200 ft; 21 6600 ft |
+| 13 | 8900 ft | D 6000 ft; E 4800 ft; 21 2400 ft |
+| 21 | 10 200 ft | 31 9700 ft; F 4200 ft; A 2400 ft |
+| 03 | 10 200 ft | A 8500 ft; F 6000 ft |
+
+[4.6] # CYYR
+
+[4.6(a)] Intersection departures. Approximate distance available for take-off; see [[3.3(j)]].
+
+| Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
+| ------ | --------------------- | ---------------------------------------------- |
+| 16 | 9580 ft | N 6000 ft |
+| 34 | 9580 ft | 26 7200 ft; N 3000 ft |
+| 08 | 11 051 ft | D 7800 ft; C 6000 ft; B 3000 ft |
+| 26 | 11 051 ft | 34 9700 ft; B 7800 ft; C 4800 ft; D 3000 ft |
 
 [5] # Phraseologies
 Phraseology in this chapter follows NAV CANADA guidance material, IFR and VFR phraseology guides, with the AIM RAC 4 examples where they exist. Numbers are spoken as grouped digits (TWO-THREE). Unit identification is omitted after initial contact. Where the CZQM/CZQX Phraseology Guide and this chapter differ, this chapter governs tower positions.
