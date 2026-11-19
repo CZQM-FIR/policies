@@ -3,7 +3,7 @@
 title: FIR General Policy
 short: fir-general-policy
 group: general
-version: "1.0"
+version: "1.1"
 effectiveDate: 2025-05-24
 effectiveTime: 0300Z
 cover: true
@@ -20,7 +20,7 @@ description: Policy for the CZQM/CZQX (Moncton / Gander) VATSIM FIR, effective 2
 | Name           | CZQM FIR General Policy |
 | Identification | CZQM-FGP                |
 | Type           | Policy                  |
-| Revision       | 1.0                     |
+| Revision       | 1.1                     |
 | Effective Date | XXXXXX                  |
 
 [1.2] # Revision Records
@@ -28,6 +28,7 @@ description: Policy for the CZQM/CZQX (Moncton / Gander) VATSIM FIR, effective 2
 | Revision ID | Effective Date   | Description of Change                                     |
 | ----------- | ---------------- | --------------------------------------------------------- |
 | 1.0         | 2025-05-24 0300Z | Initial Release of this format. Replaces SOP Amendment 4. |
+| 1.1         | XXXXXX           | Introduce reservation policies in section [[4.10]]        |
 
 [2] # Introduction
 
@@ -278,6 +279,54 @@ Examples of appropriate controller information include:
 | Gander Area Control Centre (Domestic) | CDQX                              |
 | Gander Area Control Centre (Oceanic)  | CZQX (for info)                   |
 | Moncton Area Control Centre           | CZQM                              |
+
+[4.10] # Position Reservation
+
+[4.10(a)] Position reservation (also known as bookings) allows for a controller to reserve a position on the network ahead of time in order to ensure they will be able to control said position when they wish to.
+
+[4.10(b)] Reservations shall be made via the [CZQM website](https://czqm.ca).
+
+[4.10(b)(i)] Controllers wishing to reserve a position can make the reservation on their own without the help of a staff member or instructor.
+
+[4.10(b)(ii)] Reservations for training sessions shall be made by the instructor or mentor conducting the training session. The reservation will be handled automatically by [Vector](https://vector.czqm.ca).
+
+[4.10(c)] The event coordinator (or their delegate) shall be able to create reservations oh behalf of other controllers for the purpose of events. Reservations created for events shall be able to overwrite existing reservations.
+
+[4.10(d)] A reservation for a position may only be made based on the controller's current control authorization as outlined in [[4.1]]. Students in training for a position who do not currently hold a solo shall make their reservations via the instructor or mentor supervising them as outlined in [[4.10(b)(ii)]].
+
+[4.10(e)] The following conditions apply to reservations:
+
+[4.10(e)(i)] A reservation shall not exceed 2 hours in duration.
+
+[4.10(e)(ii)] A reservation shall start at the top or bottom of the hour.
+
+[4.10(e)(iii)] Controllers shall not have more than 2 hours of reservation time per Atlantic Time (UTC-3 / UTC-4) calendar day. This shall only apply to bookings made under [[4.10(b)(i)]].
+
+[4.10(f)] Reservation lead time parameters are as follows:
+
+[4.10(f)(i)] An Instructor or mentor reserving a position under [[4.10(b)(ii)]] can make reservations up to 7 days in advance.
+
+[4.10(f)(ii)] A student making a reservation for a position which they hold a solo can make reservations up to 4 days in advance.
+
+[4.10(f)(iii)] All other controllers can make reservations up to 3 days in advance.
+
+[4.10(f)(iv)] The event coordinator shall not be restricted by this clause for the purpose of making reservations for events.
+
+[4.10(g)] Controllers and instructors reserving a position are expected to log into that position for the period stipulated. Controllers abusing the privilege may find their ability to reserve positions restricted at the discretion of FIR staff.
+
+[4.10(g)(i)] Should a position be unoccupied by the reserving controller or their student 10 minutes into the reservation time, the reservation will be void.
+
+[4.10(g)(ii)] Controllers who no-show a reservation without cancelling it may be barred from making another reservation for 72 hours.
+
+[4.10(h)] A reservation may be cancelled at any time before it begins.
+
+[4.10(h)(i)] A reservation cancelled at least 2 hours before its scheduled start does not count against the limits in [[4.10(e)]]
+
+[4.10(h)(ii)] A reservation cancelled less than 2 hours before its scheduled start is a no-show under [[4.10(g)(ii)]].
+
+[4.10(i)] At the end of a reservation period, the position shall be relinquished within a reasonable time, workload permitting, to any qualified controller, solo authorized student, or Instructor/mentor-student pair who wishes to control it.
+
+[4.10(j)] FIR staff may override reservations but must justify, document, and inform the controller of the reasons for their decision.
 
 [5] # Software Use Policy
 
