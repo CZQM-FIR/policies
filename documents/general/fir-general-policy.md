@@ -284,7 +284,7 @@ Examples of appropriate controller information include:
 
 [4.10(a)] Position reservation (also known as bookings) allows for a controller to reserve a position on the network ahead of time in order to ensure they will be able to control said position when they wish to.
 
-[4.10(b)] Reservations shall be made via the CZQM website.
+[4.10(b)] Reservations shall be made via the [CZQM website](https://czqm.ca).
 
 [4.10(b)(i)] Controllers wishing to reserve a position can make the reservation on their own without the help of a staff member or instructor.
 
