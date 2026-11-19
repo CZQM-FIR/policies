@@ -286,7 +286,7 @@ Examples of appropriate controller information include:
 
 [4.10(b)] Reservations shall be made via the CZQM website.
 
-[4.10(b)(i)] Individuals wishing to reserve a position can make the reservation on their own without the help of a staff member or instructor.
+[4.10(b)(i)] Controllers wishing to reserve a position can make the reservation on their own without the help of a staff member or instructor.
 
 [4.10(b)(ii)] Reservations for training sessions shall be made by the isntructor or mentor conducting the training session. The reservation will be handled automatically by Vector.
 
