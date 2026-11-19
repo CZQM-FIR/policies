@@ -31,7 +31,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 | ----------- | ---------------- | --------------------- |
 | 1.0         | 2025-05-24 0300Z | Initial release |
 | 1.1         | 2025-06-09 0300Z | Errata corrected |
-| 1.2         | To be confirmed  | Readback paragraph added to [[3.1]] (CAR 602.31 as amended, in force 2026-11-19). Phraseology Supplement and Corrections rolled in as new Phraseologies chapter ([[10]]) (identification and altitude validation, altitude assignment, RNAV STAR, speed, weather deviations and offsets, holding clearances, position reports and controlled airspace, cancellation of IFR, minimum fuel, traffic information, safety alerts, TCAS); Location-Specific Guidance and list of figures removed. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.2         | To be confirmed  | Readback paragraph added to [[3.1]] (CAR 602.31 as amended, in force 2026-11-19). Phraseology Supplement and Corrections rolled in as new Phraseologies chapter ([[10]]) (identification and altitude validation, altitude assignment, RNAV STAR, speed, weather deviations and offsets, holding clearances, position reports and controlled airspace, cancellation of IFR, minimum fuel, traffic information, safety alerts, TCAS); Location-Specific Guidance and list of figures removed; duplicated Traffic Manager paragraph removed from Cape Breton ([[8.5]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -265,13 +265,11 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [8.5(c)] Cape Breton will apply a minimum of 5 Miles-In-Trail spacing, constant or increasing, to jet and turboprop traffic destined to CYHZ.
 
-[8.5(d)] Digby will take on the role of Traffic Manager and modulate the Miles-In-Trail spacing supplied to Terminal in cases of compacted demand. As such, Digby may decide to increase MIT to 10, 15, 20 miles over each Metering Fix and communicate that requirement to Moncton Low and Cape Breton, as appropriate.
+[8.5(d)] If arriving traffic is so compacted that it is impractical to achieve the required MIT spacing, aircraft will be cleared to hold at the published holds, as required. See Holding in [[7.4]] above.
 
-[8.5(e)] If arriving traffic is so compacted that it is impractical to achieve the required MIT spacing, aircraft will be cleared to hold at the published holds, as required. See Holding in [[7.4]] above.
+[8.5(e)] Cape Breton will retain control of the aircraft in the holds at BOSUB and LIRLA. When Terminal is ready to accept the next aircraft, it will be handed off to Terminal while still in the hold.
 
-[8.5(f)] Cape Breton will retain control of the aircraft in the holds at BOSUB and LIRLA. When Terminal is ready to accept the next aircraft, it will be handed off to Terminal while still in the hold.
-
-[8.5(g)] Be aware that aircraft in the hold have a significant horizontal footprint. Exercise caution while climbing departing aircraft through the hold altitudes.
+[8.5(f)] Be aware that aircraft in the hold have a significant horizontal footprint. Exercise caution while climbing departing aircraft through the hold altitudes.
 
 [9] # Best Practices
 
