@@ -31,7 +31,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 | ----------- | ---------------- | --------------------- |
 | 1.0         | 2025-05-24 0300Z | Initial release |
 | 1.1         | 2025-06-09 0300Z | Errata corrected |
-| 1.2         | To be confirmed  | Readback paragraph added to [[3.1]] (CAR 602.31 as amended, in force 2026-11-19). Phraseology Supplement and Corrections v1.1 rolled in as new Phraseologies chapter ([[10]]) (identification and altitude validation, altitude assignment, RNAV STAR, speed, weather deviations and offsets, holding clearances, position reports and controlled airspace, cancellation of IFR, minimum fuel, traffic information, safety alerts, TCAS); Location-Specific Guidance and list of figures removed. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.2         | To be confirmed  | Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -51,7 +51,6 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [3.1(a)] An enroute controller is the top tier within VATSIM, as such an enroute controller monitors and separates aircraft during any portion of flight and anywhere within the _CTR airspace not controlled by a subordinate position.
 
-[3.1(b)] Obtain an accurate readback of every IFR clearance and IFR instruction — altitude, route, speed, heading, holding — and correct any error in it, including a flight level read back as the wrong number (CAR 602.31(1)(b)(i); NAV CANADA guidance material). Frequency changes and traffic information are acknowledged. When working a tower or terminal position top-down, apply the readback rules in the Tower Operating Practices, chapter 5.
 
 [3.2] # Separation
 
@@ -103,7 +102,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [6.2] # Descent Profiles
 
-[6.2(a)] Aircraft use Mach number, typically Mach 0.78 to Mach 0.85 during cruise. Indicated Airspeed (IAS) at high altitudes is quite low. As aircraft descend into denser air, the IAS increases. Around FL240-280, the aircraft will switch from descending using a constant Mach to using a constant IAS. This is often called the transition, but the use of the term “transition” in PBN approaches has led to the use of the term “conversion”.
+[6.2(a)] Aircraft use Mach number, typically Mach 0.78 to Mach 0.85 during cruise. Indicated Airspeed (IAS) at high altitudes is quite low. As aircraft descend into denser air, the IAS increases. Around FL240-280, the aircraft will switch from descending using a constant Mach to using a constant IAS. This is often called the transition, but the use of the term “transition” in PBN approaches has led to the use of the term ‘conversion”.
 
 [6.2(b)] All aircraft will slow from their descent IAS to achieve 250 kts by 10 000 ft.
 
@@ -123,13 +122,13 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [6.3(b)] If you need to slow an aircraft’s speed, it will not be able to descend as steeply. Therefore, if you need an aircraft to reach a given altitude by a given point and also slow it down so it won’t overtake another, you will need to be proactive and start the descent sooner.
 
-[6.3(c)] The use of “when ready” is fine when you don’t care. If you’re busy and have more than one aircraft close together, “when ready” may not be appropriate. When you issue a descent clearance, the aircraft is expected to initiate descent in short order and may not linger at cruise level.
+[6.3(c)] The use of “when ready” is fine when you don’t care. If you’re busy and have more than one aircraft close together, “when Ready” may not be appropriate. When you issue a descent clearance, the aircraft is expected to initiate descent in short order and may not linger at cruise level.
 
 [6.3(d)] If you have a need to sequence flights into terminal, don’t be afraid to be proactive and possibly assign descent speeds as well. Stay ahead of the power curve rather than be reactive to a deteriorating situation.
 
 [6.3(e)] PLAN – EXECUTE – MONITOR.
 
-[6.3(f)] If you have a plan, communicate it to the aircraft: “JBU655, descend to 1 0 thousand, cross MUVOX at 1 5 thousand or below. Do not exceed 2 5 0 knots. altimeter 2 9 9 5.” is much easier for the pilot to deal with than reading your mind.
+[6.3(f)] If you have a plan, communicate it to the aircraft: “JBU655, descend to 1 0 thousand, cross MUVOX at 1 5 thousand or below. Do not exceed 2 5 0 knots. altimeter 2 9 9 5.” Is much easier for the pilot to deal with than reading your mind.
 
 [6.3(g)] Keep in mind that when you descend an aircraft, you are guaranteeing separation between it and any other aircraft from its current position (and altitude) until the cleared-to altitude. Nothing is gained by the practice of clearing successive aircraft to successively higher altitudes unless you expect horizontal separation to be lost, in which case you would clear the higher aircraft to the altitude previously vacated by the lower one. Clearing #1 from FL310 to 100, #2 to 110 and #3 to 120 is an illusion of separation which would only have effect when they level off and catch up to each other.
 
@@ -157,7 +156,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [7.3] # Path Stretching – Vectoring
 
-[7.3(a)] While building a sequence into the terminal, speed management may not be sufficient to achieve the required spacing. Another tool in your kit is path stretching.
+[7.3(a)] While building a sequence into the terminal, speed management may not be sufficient to achieve the required spacing. Another tool in you kit is path stretching.
 
 [7.3(b)] The objective is to have the following aircraft fly extra miles to build up distance between it and the leading aircraft.
 
@@ -183,7 +182,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 - The aircraft requests it while it waits for weather to improve.
 - At the end of a published Missed Approach Procedure, while the controller makes other arrangements to re-sequence the flight.
 - There is excessive air traffic demand that cannot be adequately managed using other strategies.
-- An arriving aircraft is so high on descent that it cannot reach the runway without significant path stretching, and a hold is the best solution.
+- An arriving aircraft is so high on descent that it cannot reach he runway without significant path stretching, and a hold is the best solution.
 
 [7.4(b)] Sample clearances:
 
@@ -239,7 +238,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [8.3] # Tri-Terminal
 
-[8.3(a)] The CZQM_L_APP sector is a consolidation of the Maritime Terminal airspaces. The callsign is Moncton Centre but the service is Terminal. It is defined and discussed in the Terminal Operating Practices document paragraph 10.5.
+[8.3(a)] The CZQM_L_APP sector is a consolidation of the Maritime Terminal airspaces. The callsign is Moncton Centre but the service is Terminal. Is is defined and discussed in the Terminal operating Practices document paragraph 10.5.
 
 [8.4] # Digby
 
@@ -291,177 +290,37 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [9.3] # IFR Clearances at non-SID aerodromes
 
-[9.3(a)] SIDs can be thought of as blunt instruments to get aircraft airborne and into the IFR sector’s control.
+[9.3(a)] SIDs can be though of as blunt instruments to get aircraft airborne and into the IFR sector’s control.
 
 [9.3(b)] CZQM & CZQX contain several aerodromes where SIDs have not been published. Controllers will therefore need to formulate IFR clearances tactically based on the existing situation.
 
 [9.3(c)] Do not overcontrol.
 
-[10] # Phraseologies
-Phraseology in this chapter follows NAV CANADA guidance material and the NAV CANADA IFR and RNAV phraseology guides, with the TC AIM examples where they exist. Numbers are spoken as grouped digits; altitudes below 18 000 ft as thousands and hundreds, flight levels digit by digit; NINER and FIFE in altimeters and altitudes. Terminal-phase phraseology (vectors to final, approach clearances, STAR amendments, missed approach) is in the Terminal Operating Practices, chapter 9, and tower-phase phraseology, readback rules and radiotelephony fundamentals are in the Tower Operating Practices, chapter 5; apply them when working those positions top-down. Where the CZQM/CZQX Phraseology Guide and this chapter differ, this chapter governs Centre positions.
+[10] # Location-Specific Guidance
 
-[10.1] # Identification and Altitude Validation
+[10.1] # CYHZ
 
-[10.1(a)] State IDENTIFIED when identification is established; once identified, position reports over compulsory points are no longer required. A Mode C readout is valid when it is within 200 ft of the reported altitude and invalid at 300 ft or more; challenge an invalid readout. — AIM RAC 1.5.2, 8.3; IFR Phraseology pp. 4, 16, 48
+[10.1(a)] (RESERVED)
 
-| Situation                  | Phraseology                                                                     |
-| -------------------------- | ------------------------------------------------------------------------------- |
-| Identification established | IDENTIFIED [, (instructions)]                                                   |
-| Readout does not agree     | YOUR ALTITUDE READOUT IS (altitude), ALTIMETER (setting), VERIFY YOUR ALTITUDE  |
-| Identification lost        | IDENTIFICATION LOST, (instructions) / RESUME NORMAL POSITION REPORTING          |
-| Service ended              | ATS SURVEILLANCE SERVICE TERMINATED, (instructions)                             |
-| Vectors terminated         | RESUME NORMAL NAVIGATION / PROCEED DIRECT (fix) ON COURSE                       |
+[10.2] # CYQM
 
-> *AIR CANADA ONE-TWO-THREE, MONCTON CENTRE, IDENTIFIED, CLIMB TO FLIGHT LEVEL TWO-SEVEN-ZERO.*
->
-> *LIMA ECHO MIKE, YOUR ALTITUDE READOUT IS EIGHT THOUSAND FOUR HUNDRED, ALTIMETER TWO-NINER-NINER-THREE, VERIFY YOUR ALTITUDE.*
+[10.2(a)] (RESERVED)
 
-[10.2] # Altitude Assignment
+[10.3] # CYFC
 
-| Purpose                              | Phraseology                                                                                                   |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| Basic                                | CLIMB TO / DESCEND TO (altitude)                                                                              |
-| Crossing restriction                 | CROSS (fix) AT (altitude) / AT OR ABOVE / AT OR BELOW (altitude)                                              |
-| Protect an altitude until a point    | NOT ABOVE / NOT BELOW (altitude) UNTIL (time / fix)                                                           |
-| Where or when to start               | CLIMB / DESCEND TO (altitude) IMMEDIATELY / AFTER PASSING (fix) / AT (time)                                   |
-| Pilot’s timing                       | WHEN READY CLIMB / DESCEND TO (altitude)                                                                      |
-| Amend a climb or descent in progress | CONTINUE CLIMB / DESCENT TO (altitude) / STOP CLIMB / DESCENT AT (altitude)                                   |
-| Rate                                 | EXPEDITE CLIMB / DESCENT UNTIL PASSING / REACHING (altitude)                                                  |
-| Block                                | MAINTAIN BLOCK (altitude) TO (altitude)                                                                       |
-| Cruise climb                         | CRUISE CLIMB TO (altitude) / CLIMB TO (altitude) CRUISE CLIMB BETWEEN (levels) / ABOVE (level)                |
-| Controlled airspace                  | MAINTAIN (altitude) WHILE IN CONTROLLED AIRSPACE / LEAVE / ENTER CONTROLLED AIRSPACE (number) MILES (direction) OF (fix) AT (altitude) |
+[10.3(a)] (RESERVED)
 
-> *AIR CANADA FIVE-ZERO-SIX, CLIMB TO FLIGHT LEVEL THREE-FIVE-ZERO, CROSS KATSY AT FLIGHT LEVEL TWO-FOUR-ZERO OR ABOVE.*
->
-> *JETBLUE SIX-FIVE-FIVE, DESCEND TO ONE-ZERO THOUSAND, CROSS MUVOX AT ONE-FIVE THOUSAND OR BELOW, DO NOT EXCEED TWO-FIVE-ZERO KNOTS, ALTIMETER TWO-NINER-NINER-FIVE.*
+[10.4] # CYSJ
 
-[10.2(a)] WHEN READY replaced “at pilot’s discretion”. Once a “when ready” descent has started, no interim level-off is permitted without a further clearance. On a STAR or RNAV SID the pilot complies with every published restriction unless the controller cancels it. When an aircraft reports vacating an altitude, that altitude may be assigned to another aircraft (see [[6.3(g)]]). A descending aircraft that must level at 10 000 ft to comply with the 250-knot limit is expected to say so. — AIM RAC 8.4.1; IFR Phraseology p. 26
+[10.4(a)] (RESERVED)
 
-[10.3] # RNAV STAR — Descent Restrictions and Route Amendments
+[10.5] # CYYT
 
-[10.3(a)] The aircraft follows the STAR lateral track without further clearance, but not the vertical profile: a descent clearance is required, after which the pilot descends on the STAR profile to the assigned altitude complying with every charted restriction above that altitude unless it is specifically cancelled. An ATC-assigned speed supersedes a charted speed. When taken off a STAR for sequencing, re-establish the aircraft on the STAR before entering Terminal airspace ([[9.2(b)]]). — AIM RAC 9.2.3.5–9.2.3.7, 9.2.3.15; RNAV Phraseology pp. 5–16
+[10.5(a)] (RESERVED)
 
-| Situation                                | Phraseology                                                                                                     |
-| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Descend on the STAR (restrictions stand) | DESCEND [TO] (altitude)                                                                                         |
-| Cancel one altitude restriction          | DESCEND [TO] (altitude) ALTITUDE RESTRICTION AT (waypoint) CANCELLED                                            |
-| Cancel one speed restriction             | DESCEND [TO] (altitude) SPEED RESTRICTION AT (waypoint) CANCELLED                                               |
-| Cancel all remaining restrictions        | DESCEND UNRESTRICTED [TO] (altitude)                                                                            |
-| Direct to a point on the STAR            | PROCEED DIRECT (waypoint) REJOIN STAR                                                                           |
-| Vector off, then back                    | VECTORS FOR (reason), FLY HEADING (number), EXPECT DIRECT (waypoint) IN (number) MILES … PROCEED DIRECT (waypoint) REJOIN STAR |
-| Change of STAR transition                | RECLEARED (procedure name), (transition name), PROCEED DIRECT (waypoint) REJOIN STAR                            |
-| Vector to intercept the STAR             | FLY HEADING (number), REJOIN (STAR name)                                                                        |
+[10.6] # CYQX
 
-> *WESTJET ONE-TWO-THREE, DESCEND TO ONE-ZERO THOUSAND, ALTITUDE RESTRICTION AT ZABEL CANCELLED.*
->
-> *BAW FOUR, VECTORS FOR SEQUENCING, TURN LEFT HEADING ZERO-FIVE-ZERO, EXPECT DIRECT EBKID IN TWO-ZERO MILES. … BAW FOUR, PROCEED DIRECT EBKID, REJOIN STAR.*
+[10.6(a)] (RESERVED)
 
-[10.4] # Speed
-
-| Situation               | Phraseology                                                                                               |
-| ----------------------- | --------------------------------------------------------------------------------------------------------- |
-| Request                 | SAY AIRSPEED / SAY MACH NUMBER                                                                            |
-| Maintain                | MAINTAIN PRESENT SPEED / MACH NUMBER / MAINTAIN SPEED (number) KNOTS / MACH (number) [OR GREATER / OR LESS] |
-| Change                  | INCREASE / REDUCE SPEED TO (number) KNOTS / MACH (number) / INCREASE / REDUCE SPEED BY (number) KNOTS     |
-| Minimums                | REDUCE TO MINIMUM CLEAN SPEED                                                                             |
-| Ceiling                 | DO NOT EXCEED SPEED (number) KNOTS / DO NOT EXCEED MACH (number)                                          |
-| Sequence with a descent | REDUCE SPEED TO (number) KNOTS, THEN DESCEND TO (altitude) / DESCEND TO (altitude), THEN REDUCE SPEED TO (number) KNOTS |
-| Terminate               | RESUME NORMAL SPEED (does not cancel published restrictions)                                              |
-
-[10.4(a)] Speed adjustments are in multiples of 10 knots; the pilot is expected to hold within 10 knots. Unless the pilot agrees to less, do not assign below 250 knots at or above 10 000 ft or 210 knots below 10 000 ft when 20 NM or more from destination. An assigned Mach is held to within 0.01 until the initial descent clearance. — AIM RAC 9.7.3, 11.1
-
-[10.5] # Weather Deviations, Offsets and Direction-of-Flight Exceptions
-
-> (aircraft identification) DEVIATION (number) DEGREES (left / right) [OF ROUTE] IS APPROVED, WHEN ABLE PROCEED DIRECT (fix) ON COURSE.
->
-> *ENCORE THREE-FOUR-ZERO-FOUR, DEVIATION THREE-ZERO DEGREES TO THE RIGHT IS APPROVED, WHEN ABLE PROCEED DIRECT PRINCETON V-O-R ON COURSE.*
->
-> *DEVIATION NORTH APPROVED, WHEN ABLE PROCEED DIRECT MIILS ON COURSE. / DEVIATION NO FURTHER THAN THREE-ZERO MILES OF ROUTE APPROVED, ADVISE CLEAR OF WEATHER.*
-
-[10.5(a)] If no point is given, the pilot stays on the deviation heading and advises when able to rejoin. — IFR Phraseology p. 48
-
-| Situation            | Phraseology                                                                                        |
-| -------------------- | -------------------------------------------------------------------------------------------------- |
-| Parallel offset      | PROCEED OFFSET (number) MILES (right / left) OF CENTRELINE (track / route) AT (point / time) UNTIL (point / time) |
-| Ability check        | ADVISE IF ABLE TO PROCEED PARALLEL OFFSET                                                          |
-| Vector off an airway | VECTORS TO (direction) OF (airway / track), TURN (left / right) HEADING (degrees)                  |
-| Cancel               | CANCEL OFFSET                                                                                      |
-
-[10.5(b)] An altitude not appropriate to the direction of flight may be assigned at pilot request for icing, turbulence or fuel (the pilot must say when an appropriate altitude can be accepted), or when no other separation can be applied; in high-level surveillance airspace such aircraft are vectored or offset at least 5 NM from the airway centreline. Event altitude structuring is in [[5.2(d)]]. — AIM RAC 8.6.2
-
-[10.6] # Holding Clearances
-
-[10.6(a)] A holding clearance contains at least: the clearance to the holding fix; the direction to hold from the fix; the radial, course or inbound track; for DME holds, the DME distances for the fix-end and outbound-end turns; the altitude; and an expect-further-clearance time, an expect-approach-clearance time, or a time to leave the fix. Turns are right unless the clearance says LEFT TURNS or a non-standard pattern is published. A complete readback is required. Issue a revised time or a further clearance at least five minutes before the current time expires. Holding strategy and stack management are in [[7.4]]. — AIM RAC 10.2–10.7; IFR Phraseology pp. 30–32
-
-| Situation                    | Phraseology                                                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Standard                     | CLEARED TO (fix), HOLD (direction) ON (radial / course / inbound track), MAINTAIN (altitude), EXPECT FURTHER CLEARANCE AT (time) |
-| Non-standard                 | … HOLD (direction) ON (radial / course / inbound track), LEFT TURNS, EXPECT FURTHER CLEARANCE AT (time)            |
-| Published                    | CLEARED TO (fix), HOLD (direction) AS PUBLISHED, MAINTAIN (altitude), EXPECT FURTHER CLEARANCE AT (time)            |
-| Time to leave instead of EFC | … DEPART / LEAVE (fix) AT (time)                                                                                    |
-| DME                          | CLEARED TO THE (name) VOR (radial) (number) DME FIX, HOLD BETWEEN (number) AND (number) DME, EXPECT FURTHER CLEARANCE AT (time) |
-| Report                       | REPORT ESTABLISHED IN THE HOLD / REPORT LEAVING (altitude)                                                          |
-
-> *JAZZ THREE-SEVEN, CLEARED TO MUVOX, HOLD SOUTHWEST AS PUBLISHED, MAINTAIN ONE-FOUR THOUSAND, EXPECT FURTHER CLEARANCE AT TWO-ZERO-ONE-ZERO.*
-
-[10.6(b)] Maximum holding airspeeds: 200 KIAS at or below 6 000 ft; 230 KIAS above 6 000 ft to 14 000 ft; 265 KIAS above 14 000 ft. A pilot reaching a clearance limit without further clearance holds as published, or on the inbound track if nothing is published, at the last assigned altitude, and asks. — AIM RAC 10.7, 8.9
-
-[10.7] # Position Reports, Clearance Limits and Controlled Airspace
-
-> *ALFA BRAVO CHARLIE, MONCTON CENTRE, ROGER, GOOSE ALTIMETER TWO-NINER-NINER-FOUR, REPORT FOUR-ZERO D-M-E EAST OF GOOSE V-O-R.*
-
-[10.7(a)] REPORT REACHING / LEAVING / PASSING (altitude) are instructions the pilot must comply with. A revised estimate is expected when it changes by three minutes or more. — AIM RAC 8.1, 8.3; IFR Phraseology p. 41
-
-| Situation                                                               | Phraseology                                                                                                         |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Descending out of low-level controlled airspace — no published approach | CLEARED TO DESCEND OUT OF CONTROLLED AIRSPACE VICINITY OF (aerodrome). THE MINIMUM IFR ALTITUDE IS (altitude). REPORT LEAVING (altitude). |
-| Via a published approach                                                | CLEARED OUT OF CONTROLLED AIRSPACE VIA THE (approach name) APPROACH AT (aerodrome).                                 |
-| Leaving high-level controlled airspace                                  | CLEARED OUT OF THE (type of airspace, e.g. NORTHERN CONTROL AREA).                                                  |
-| Protecting an altitude for the flight                                   | MAINTAIN (altitude) WHILE IN CONTROLLED AIRSPACE.                                                                   |
-
-> *CREE SEVEN-THREE-FIVE, CLEARED OUT OF CONTROLLED AIRSPACE VIA THE R-NAV RUNWAY ZERO-SEVEN APPROACH AT CHARLO.*
-
-[10.7(b)] At the pilot’s request, the MEA is protected for 30 minutes while the aircraft descends to the MOCA looking for VMC. — AIM RAC 8.9, 9.4; IFR Phraseology pp. 41–42
-
-[10.8] # Cancellation of IFR
-
-> *ALFA CHARLIE CHARLIE, ROGER, ARE YOU CLOSING YOUR FLIGHT PLAN?*
->
-> *ALFA CHARLIE CHARLIE, ROGER, IFR FLIGHT PLAN IS CLOSED AND ALERTING SERVICE TERMINATED.*
->
-> *ALFA CHARLIE CHARLIE, ROGER, AN ARRIVAL REPORT IS REQUIRED AFTER LANDING.*
-
-[10.8(a)] IFR may be cancelled only in VMC outside Class A or B airspace with no expectation of returning to IMC. ATC continues conflict resolution while the aircraft remains in Class C. — IFR Phraseology p. 39
-
-[10.9] # Minimum Fuel and Emergencies
-
-[10.9(a)] MINIMUM FUEL is an advisory, not an emergency and not a priority: the flight is committed to its destination and can accept no further delay. Respond, keep the pilot informed of any delay as soon as you know of it, and pass the status to the next sector. MAYDAY MAYDAY MAYDAY FUEL is a fuel emergency and receives priority; PAN PAN is urgency. Request persons on board and fuel endurance only once the crew has time to answer. — AIM RAC 1.7.3; IFR Phraseology pp. 43–44
-
-> (aircraft identification) ROGER / ROGER, NO DELAY EXPECTED / ROGER, EXPECT (delay information).
->
-> *AIR CANADA SIX-SIX-ONE, ROGER, ARE YOU DECLARING AN EMERGENCY? … AIR CANADA SIX-SIX-ONE, ROGER, NO DELAY EXPECTED.*
-
-[10.10] # Traffic Information, Safety Alerts and TCAS
-
-> (aircraft identification) TRAFFIC, (clock position) (distance), (direction of flight), (type / SLOW MOVING / TYPE UNKNOWN), (altitude) [UNVERIFIED] / DESCENDING / CLIMBING
->
-> *PORTER FOUR-FOUR-TWO, TRAFFIC, ONE-FIVE MILES WEST OF SYDNEY V-O-R, EASTBOUND, TYPE UNKNOWN, SLOW MOVING, FIVE THOUSAND FIVE HUNDRED UNVERIFIED.*
-
-[10.10(a)] Clock position is based on the observed track, not the aircraft heading. UNVERIFIED means the Mode C shows that altitude but it has not been confirmed. “With the traffic” is a known source of error and is not accepted. — AIM RAC 1.5.3; IFR Phraseology p. 40
-
-| Safety alert     | Phraseology                                                                                                   |
-| ---------------- | ------------------------------------------------------------------------------------------------------------- |
-| Traffic conflict | TRAFFIC ALERT, TURN RIGHT / LEFT HEADING (number) IMMEDIATELY                                                 |
-| Low altitude     | LOW ALTITUDE ALERT, VERIFY YOUR ALTITUDE IMMEDIATELY, (unit) ALTIMETER (setting), THE MINIMUM IFR ALTITUDE IS (altitude) |
-| Airspace         | AIRSPACE ALERT, CLIMB / DESCEND / TURN (altitude / direction) IMMEDIATELY TO AVOID RESTRICTED AIRSPACE        |
-| Terrain          | TERRAIN WARNING, IMMEDIATE SAFE ALTITUDE (altitude), ALTIMETER (setting)                                      |
-
-[10.10(b)] TCAS resolution advisory — do not modify the flight path of an aircraft responding to an RA; separation responsibility resumes when it has returned to its last clearance or a new one is issued
-
-> *Pilot: (unit), (aircraft identification), TCAS RA.*
->
-> (aircraft identification), ROGER [TRAFFIC (description)].
->
-> *Pilot: (unit), (aircraft identification), CLEAR OF CONFLICT, RETURNING TO (altitude).*
->
-> (aircraft identification), ROGER, RESUME NORMAL NAVIGATION.
+[11] # Glossary
+(RESERVED)
