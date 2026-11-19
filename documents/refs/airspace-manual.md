@@ -161,7 +161,9 @@ Sector consolidations are meant to remove traffic progressively from the main Ce
 | CZQM_3_CTR | QM3         | 135.65    |
 | CZQM_4_CTR | QM4         | 123.7     |
 
-See [[fig:ctp-consolidated]].
+See [[fig:ctp-czqm]].
+
+![CZQM Centre CTP position mapping](images/airspace/ctp-czqm.png){#fig:ctp-czqm width=65%}
 
 [5.1(c)(iv)] # Gander
 
