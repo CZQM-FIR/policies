@@ -30,7 +30,7 @@ description: Airspace, sectorization and position reference for the CZQM/CZQX (M
 | Revision ID | Effective Date   | Description of Change |
 | ----------- | ---------------- | --------------------- |
 | 2.0         | 2025-11-29 0400Z | Initial release |
-| 2.1         | To be confirmed  | Cross the Pond (CTP) high level sectorization added ([[5.1(c)]]). Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
+| 2.1         | To be confirmed  | Cross the Pond (CTP) high level sectorization added ([[5.1(c)]]). Digby (CZQM_DG_CTR) frequency corrected to 123.8 per the sector file. Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -59,7 +59,7 @@ The following table covers the normal CZQM / CZQX working positions and their pa
 | -------------- | ------------- | ------- | --------- | ------------------------------ |
 | Centre         | CZQM_CTR      | QM      | 132.2     |                                |
 | ^              | CZQX_CTR      | QX      | 132.1     |                                |
-| ^              | CZQM_DG_CTR   | DG      | 123.9     | Digby                          |
+| ^              | CZQM_DG_CTR   | DG      | 123.8     | Digby                          |
 | ^              | CZQM_CB_CTR   | CB      | 118.6     | Cape Breton                    |
 | Terminal       | CYHZ_APP      | HZA     | 119.2     |                                |
 | ^              | CYHZ_FI_APP   | HA2     | 128.55    | Halifax arrival                |
