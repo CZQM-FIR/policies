@@ -161,9 +161,7 @@ Sector consolidations are meant to remove traffic progressively from the main Ce
 | CZQM_3_CTR | QM3         | 135.65    |
 | CZQM_4_CTR | QM4         | 123.7     |
 
-See [[fig:ctp-czqm]].
-
-![CZQM Centre CTP position mapping](images/airspace/ctp-czqm.png){#fig:ctp-czqm width=75%}
+See [[fig:ctp-consolidated]].
 
 [5.1(c)(iv)] # Gander
 
@@ -181,7 +179,7 @@ See [[fig:ctp-czqx]] and [[fig:ctp-consolidated]].
 
 ![Gander Centre CTP Sectorization](images/airspace/ctp-czqx.png){#fig:ctp-czqx width=50%}
 
-![Consolidated CTP sectorization](images/airspace/ctp-consolidated.png){#fig:ctp-consolidated width=65%}
+![Consolidated CTP sectorization](images/airspace/ctp-consolidated.png){#fig:ctp-consolidated width=75%}
 
 [5.2] # Low Level Airspace (Surface to below FL290)
 
