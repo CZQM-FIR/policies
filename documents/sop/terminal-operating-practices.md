@@ -250,9 +250,8 @@ description: Operating practices for CZQM controllers providing terminal control
 - At the end of a published Missed Approach Procedure, while the controller makes other arrangements to re-sequence the flight.
 - There is excessive air traffic demand that cannot be adequately managed using other strategies.
 - An arriving aircraft is so high on descent that it cannot reach the runway without significant path stretching, and a hold is the best solution.
-- It is standard practice to include the cleared altitude with the holding instructions.
 
-[8.5(b)] Sample clearances:
+[8.5(b)] Sample clearances. It is standard practice to include the cleared altitude with the holding instructions.
 
 | Situation | Clearance |
 | --- | --- |
