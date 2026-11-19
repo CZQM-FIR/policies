@@ -30,7 +30,7 @@ description: Airspace, sectorization and position reference for the CZQM/CZQX (M
 | Revision ID | Effective Date   | Description of Change |
 | ----------- | ---------------- | --------------------- |
 | 2.0         | 2025-11-29 0400Z | Initial release |
-| 2.1         | To be confirmed  | Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
+| 2.1         | To be confirmed  | Cross the Pond (CTP) high level sectorization added ([[5.1(c)]]). Reformat document to use CZQM docengine. [[2.3]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -139,6 +139,49 @@ This green area represents the Gander Centre Area between FL290 and FL600. Note 
 Note that the CZQM-CZQX boundary FL290 and above is located further East than the Low-Level boundary.
 
 ![Gander Centre high level airspace (FL290 - FL600)](images/airspace/czqx-high-level.png){#fig:czqx-high-level width=55%}
+
+[5.1(c)] # Cross the Pond (CTP)
+
+[5.1(c)(i)] # General
+Large events, such as Cross the Pond, introduce large volumes of traffic that require airspace configurations that differ from those of routine operations. This sector deals with this high volume sectorization.
+
+Positions are named based on their FIR and numbered increasing from South to North. Each position shares an east-west boundary with its correspondingly numbered counterpart (CZQM1 is adjacent to CZQX1). Position boundaries are also aligned with adjacent domestic FIR (Montreal, Boston) sector boundaries to simplify coordination. Oceanic sector boundaries may vary depending on the event.
+
+These are High Level Airspace positions (FL290+).
+
+[5.1(c)(ii)] # Consolidations
+Sector consolidations are meant to remove traffic progressively from the main Centre. In addition, they are designed to be “fail soft” to minimize disruption should a position’s connection fail.
+
+[5.1(c)(iii)] # Moncton
+
+| Position   | Symbol (SI) | Frequency |
+| ---------- | ----------- | --------- |
+| CZQM_1_CTR | QM1         | 123.9     |
+| CZQM_2_CTR | QM2         | 132.7     |
+| CZQM_3_CTR | QM3         | 135.65    |
+| CZQM_4_CTR | QM4         | 126.45    |
+
+See [[fig:ctp-czqm]].
+
+![CZQM Centre CTP position mapping](images/airspace/ctp-czqm.png){#fig:ctp-czqm width=75%}
+
+[5.1(c)(iv)] # Gander
+
+| Position   | Symbol (SI) | Frequency |
+| ---------- | ----------- | --------- |
+| CZQX_1_CTR | QX1         | 132.34    |
+| CZQX_2_CTR | QX2         | 133.0     |
+| CZQX_3_CTR | QX3         | 125.075   |
+| CZQX_4_CTR | QX4         | 128.175   |
+| CZQX_5_CTR | QX5         | 132.05    |
+| CZQX_6_CTR | QX6         | 119.85    |
+| CZQX_7_CTR | QX7         | 135.2     |
+
+See [[fig:ctp-czqx]] and [[fig:ctp-consolidated]].
+
+![Gander Centre CTP Sectorization](images/airspace/ctp-czqx.png){#fig:ctp-czqx width=50%}
+
+![Consolidated CTP sectorization](images/airspace/ctp-consolidated.png){#fig:ctp-consolidated width=65%}
 
 [5.2] # Low Level Airspace (Surface to below FL290)
 
