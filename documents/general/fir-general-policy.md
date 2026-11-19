@@ -294,7 +294,7 @@ Examples of appropriate controller information include:
 
 [4.10(d)] A reservation for a position may only be made based on the controller's current control authorization as outlined in [[4.1]]. Students in training for a position who do not currently hold a solo shall make their reservations via the instructor or mentor supervising them as outlined in [[4.10(b)(ii)]].
 
-[4.10(e)] Reservations have the following limits applied to them:
+[4.10(e)] The following conditions apply to reservations:
 
 [4.10(e)(i)] A reservation shall not exceed 2 hours in duration.
 
@@ -302,7 +302,7 @@ Examples of appropriate controller information include:
 
 [4.10(e)(iii)] Controllers shall not have more than 2 hours of reservation time per Atlantic Time (UTC-3 / UTC-4) calendar day. This shall only apply to bookings made under [[4.10(b)(i)]].
 
-[4.10(f)] Controllers may reserve positions ahead of time. The lead time in which the reservation can be made varries depending on the controllers status:
+[4.10(f)] Reservation lead time parameters are as follows:
 
 [4.10(f)(i)] An Instructor or mentor reserving a position under [[4.10(b)(ii)]] can make reservations up to 7 days in advance.
 
@@ -314,9 +314,9 @@ Examples of appropriate controller information include:
 
 [4.10(g)] Controllers and instructors reserving a position are expected to log into that position for the period stipulated. Controllers abusing the privilege may find their ability to reserve positions restricted at the discretion of FIR staff.
 
-[4.10(g)(i)] Should a position be unoccupied by the reserving controller or their student 10 minutes into the reservation time, the reservation will be voided.
+[4.10(g)(i)] Should a position be unoccupied by the reserving controller or their student 10 minutes into the reservation time, the reservation will be void.
 
-[4.10(g)(ii)] Controllers who do not show to a reservation they have made without prior cancelling it may have a temporary restriction imposed preventing them from making another reservation for 72 hours.
+[4.10(g)(ii)] Controllers who no-show a reservation without cancelling it may be barred from making another reservation for 72 hours.
 
 [4.10(h)] A reservation may be cancelled prior to the reservation beginning.
 
