@@ -441,7 +441,7 @@ CLEARED TO THE HALIFAX AIRPORT ILS RUNWAY 23 APPROACH DUTIR TRANSITION
 
 [10.5(c)] Operation of this sector requires an S3 rating or above.
 
-[10.5(d)] CZQM_L_APP will automatically connect as 124.400 but should cross-couple 119.200 manually using the Audio For VATSIM XC function, or the identical Track Audio function.
+[10.5(d)] CZQM_L_APP will automatically connect as 119.200 but should cross-couple 124.400 manually using the Audio For VATSIM XC function, or the identical Track Audio function.
 
 [10.5(e)] When aircraft transfer between the CYHZ and CYQM / CYSJ Terminals, they should be instructed to change to the respective frequency. For instance, ACA123 flying CYHZ to CYQM should be told to contact 124.400 prior to crossing the boundary. Though one controller operates both frequencies, this is done for operational clarity and pilot understanding, ensuring both effective controller relief and effective flying. Phraseology is as follows: [CALLSIGN], Moncton Centre, Change to my frequency [FREQ].
 
