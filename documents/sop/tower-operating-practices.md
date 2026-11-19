@@ -736,7 +736,7 @@ The following plugins are supported by this FIR. Their use is not mandatory but 
 [6.1(a)] GRP is configured for Ground and Tower functions. The available tools include:
 
 - Depicting LVP mode.
-- Alerting for aircraft movements that are not per the ste status (aircraft taxiing without clearance)
+- Alerting for aircraft movements that are not per the status (aircraft taxiing without clearance)
 - Wind rose (corrected for declination), Altimeter setting, METAR, Approach path, etc.
 - Inbound list, including time and distance to touchdown.
 - Outbound list, including takeoff timer to assist with wake turbulence separation timing.
