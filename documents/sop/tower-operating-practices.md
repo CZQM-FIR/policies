@@ -133,7 +133,7 @@ description: Operating practices for CZQM controllers providing services from th
 
 [4.1(c)] Land and Hold Short Operations (LAHSO)
 
-[4.1(c)(i)] Land And Hold Short Operations (LAHSO) are published for Runway 05 to hold short of runway 14/32. During such operations, you may authorize simultaneous landings or a simultaneous landing and takeoff by restricting the aircraft landing on runway 05 to hold short of the other active runway (14 or 32).
+[4.1(c)(i)] Land And Hold Short Operations (LAHSO) are published for Runway 05 to hold short of runway 14/32. During such operations, you may authorize simultaneous landings or a simultaneous landing and takeoff by restricting the aircraft landing on runway 05 to hold short of the other active runway (14 or 32). The published landing distance available (LDA) for LAHSO from the threshold of runway 05 to short of runway 14/32 is 9544 ft.
 
 [4.1(c)(ii)] Conditions for use of LAHSO include:
 
@@ -146,7 +146,7 @@ description: Operating practices for CZQM controllers providing services from th
 
 - Before or with the landing clearance, and in time for the pilot to take another action if required, issue a hold-short instruction and traffic information.[^lahso-full-length]
 - Get a readback of the hold-short instruction.  
-  HOLD SHORT (runway ID), [9500 FEET AVAILABLE TO THE INTERSECTION], (traffic) CLEARED TO LAND (runway ID).
+  HOLD SHORT (runway ID), [9544 FEET AVAILABLE TO THE INTERSECTION], (traffic) CLEARED TO LAND (runway ID).
 - To the aircraft without the Hold-short Restriction, issue traffic details either before or with a take-off or landing clearance, and in time for the pilot to take another action.  
   (traffic) WILL HOLD SHORT (runway ID), CLEARED (TO LAND / FOR TAKEOFF) (runway ID).
 
