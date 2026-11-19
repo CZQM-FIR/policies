@@ -425,4 +425,4 @@ Visual Approach
 > *Ex: PORTER 8-9-1 CLEARED ST JOHN AIRPORT VISUAL APPROACH RUNWAY 0-5.*
 
 [11] # Document Usage
-This document is for flight simulation. It is not to be used for real-world navigation. If you wish to have any additions or modifications made, please contact us at instructor@czqm.ca or Chief@czqm.ca.
+This document is for flight simulation. It is not to be used for real-world navigation. If you wish to have any additions or modifications made, please contact us at instructor@czqm.ca or chief@czqm.ca.
