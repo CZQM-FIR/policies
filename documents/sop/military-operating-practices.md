@@ -45,7 +45,7 @@ description: Operating practices for CZQM controllers providing services to mili
 
 [2.1(e)] FIR policies are contained in the Moncton / Gander FIR General Policy document (CZQM-FGP§2.1).
 
-[2.1(f)] The source material is NAV CANADA guidance material. Where this document simplifies that guidance for the VATSIM environment, the guidance remains the authority.
+[2.1(f)] The phraseology in this document has been proposed by current and former military air traffic controllers.
 
 [2.2] # Amendments
 
