@@ -424,5 +424,30 @@ Visual Approach
 >
 > *Ex: PORTER 8-9-1 CLEARED ST JOHN AIRPORT VISUAL APPROACH RUNWAY 0-5.*
 
+[10.9] # Leaving Controlled Airspace
+As per the current Centre Operating Practices (_CZQM-CTR§10.7_).
+
+Descending out of low-level controlled airspace, no published approach:
+
+> [ CALLSIGN ] CLEARED TO DESCEND OUT OF CONTROLLED AIRSPACE VICINITY OF [ AERODROME ]. THE MINIMUM IFR ALTITUDE IS [ ALTITUDE ]. REPORT LEAVING [ ALTITUDE ].
+
+Via a published approach:
+
+> [ CALLSIGN ] CLEARED OUT OF CONTROLLED AIRSPACE VIA THE [ APPROACH NAME ] APPROACH AT [ AERODROME ].
+>
+> *Ex: CREE SEVEN-THREE-FIVE, CLEARED OUT OF CONTROLLED AIRSPACE VIA THE R-NAV RUNWAY ZERO-SEVEN APPROACH AT CHARLO.*
+
+Leaving high-level controlled airspace:
+
+> [ CALLSIGN ] CLEARED OUT OF THE [ TYPE OF AIRSPACE, e.g. NORTHERN CONTROL AREA ].
+
+Protecting an altitude for the flight:
+
+> [ CALLSIGN ] MAINTAIN [ ALTITUDE ] WHILE IN CONTROLLED AIRSPACE.
+
+Leaving our airspace when no adjacent controller is online (_CZQM-CTR§10.1_ and _CZQM-TWR§5.4_):
+
+> [ CALLSIGN ] ATS SURVEILLANCE SERVICE TERMINATED, NO FURTHER CONTROLLERS ONLINE, CHANGE TO ENROUTE FREQUENCIES.
+
 [11] # Document Usage
 This document is for flight simulation. It is not to be used for real-world navigation. If you wish to have any additions or modifications made, please contact us at instructor@czqm.ca or chief@czqm.ca.
