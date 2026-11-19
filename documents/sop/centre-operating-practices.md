@@ -31,7 +31,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 | ----------- | ---------------- | --------------------- |
 | 1.0         | 2025-05-24 0300Z | Initial release |
 | 1.1         | 2025-06-09 0300Z | Errata corrected |
-| 1.2         | To be confirmed  | Readback paragraph added to [[3.1]] (CAR 602.31 as amended, in force 2026-11-19). Phraseology Supplement and Corrections v1.1 rolled in as new Phraseologies chapter ([[10]]) (identification and altitude validation, altitude assignment, RNAV STAR, speed, weather deviations and offsets, holding clearances, position reports and controlled airspace, cancellation of IFR, minimum fuel, traffic information, safety alerts, TCAS); Location-Specific Guidance and list of figures removed. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.2         | To be confirmed  | Readback paragraph added to [[3.1]] (CAR 602.31 as amended, in force 2026-11-19). Phraseology Supplement and Corrections rolled in as new Phraseologies chapter ([[10]]) (identification and altitude validation, altitude assignment, RNAV STAR, speed, weather deviations and offsets, holding clearances, position reports and controlled airspace, cancellation of IFR, minimum fuel, traffic information, safety alerts, TCAS); Location-Specific Guidance and list of figures removed. Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -51,7 +51,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [3.1(a)] An enroute controller is the top tier within VATSIM, as such an enroute controller monitors and separates aircraft during any portion of flight and anywhere within the _CTR airspace not controlled by a subordinate position.
 
-[3.1(b)] Obtain an accurate readback of every IFR clearance and IFR instruction — altitude, route, speed, heading, holding — and correct any error in it, including a flight level read back as the wrong number (CAR 602.31(1)(b)(i); NAV CANADA guidance material). Frequency changes and traffic information are acknowledged. When working a tower or terminal position top-down, apply the readback rules in the Tower Operating Practices, chapter 5.
+[3.1(b)] Obtain an accurate readback of every IFR clearance and IFR instruction — altitude, route, speed, heading, holding — and correct any error in it, including a flight level read back as the wrong number (CAR 602.31(1)(b)(i); NAV CANADA guidance material). Frequency changes and traffic information are acknowledged. When working a tower or terminal position top-down, apply the readback rules in the current Tower Operating Practices (_CZQM-TWR§5.1_).
 
 [3.2] # Separation
 
@@ -67,13 +67,13 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [4.1(c)] Unless otherwise coordinated, Jet and Turboprop will be cleared to descend to 10 000 feet prior to handing off to the Terminal controller.
 
-[4.1(d)] For arrival and departure operating practices involving controlled aerodromes where the Centre controller is providing services, refer to the Terminal Operating Practices document.
+[4.1(d)] For arrival and departure operating practices involving controlled aerodromes where the Centre controller is providing services, refer to the current Terminal Operating Practices (_CZQM-APP§4.2_).
 
 [4.2] # Aircraft Arriving / Departing at uncontrolled aerodromes
 
 [4.2(a)] For the purposes of this section, an uncontrolled aerodrome is one for which no control tower position has been established.
 
-[4.2(b)] For arrival and departure operating practices involving uncontrolled aerodromes where the Centre controller is providing services, refer to the Terminal Operating Practices document.
+[4.2(b)] For arrival and departure operating practices involving uncontrolled aerodromes where the Centre controller is providing services, refer to the current Terminal Operating Practices (_CZQM-APP§4.3_).
 
 [5] # Separation Standards
 
@@ -81,7 +81,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [5.1(a)] Unless providing Terminal Control services[^terminal-window], the surveillance-based separation minimum is 5 nautical miles.
 
-[^terminal-window]: This requires the centre controller to use separate Terminal window(s) set to an appropriate display range to apply the 3 nautical mile standard. See Terminal Operating Practices document.
+[^terminal-window]: This requires the centre controller to use separate Terminal window(s) set to an appropriate display range to apply the 3 nautical mile standard. See the current Terminal Operating Practices (_CZQM-APP§6.1_).
 
 [5.2] # Vertical
 
@@ -239,7 +239,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 
 [8.3] # Tri-Terminal
 
-[8.3(a)] The CZQM_L_APP sector is a consolidation of the Maritime Terminal airspaces. The callsign is Moncton Centre but the service is Terminal. It is defined and discussed in the Terminal Operating Practices document paragraph 10.5.
+[8.3(a)] The CZQM_L_APP sector is a consolidation of the Maritime Terminal airspaces. The callsign is Moncton Centre but the service is Terminal. It is defined and discussed in the current Terminal Operating Practices (_CZQM-APP§10.5_).
 
 [8.4] # Digby
 
@@ -298,7 +298,7 @@ description: Operating practices for CZQM controllers providing enroute (Centre)
 [9.3(c)] Do not overcontrol.
 
 [10] # Phraseologies
-Phraseology in this chapter follows NAV CANADA guidance material and the NAV CANADA IFR and RNAV phraseology guides, with the TC AIM examples where they exist. Numbers are spoken as grouped digits; altitudes below 18 000 ft as thousands and hundreds, flight levels digit by digit; NINER and FIFE in altimeters and altitudes. Terminal-phase phraseology (vectors to final, approach clearances, STAR amendments, missed approach) is in the Terminal Operating Practices, chapter 9, and tower-phase phraseology, readback rules and radiotelephony fundamentals are in the Tower Operating Practices, chapter 5; apply them when working those positions top-down. Where the CZQM/CZQX Phraseology Guide and this chapter differ, this chapter governs Centre positions.
+Phraseology in this chapter follows NAV CANADA guidance material and the NAV CANADA IFR and RNAV phraseology guides, with the TC AIM examples where they exist. Numbers are spoken as grouped digits; altitudes below 18 000 ft as thousands and hundreds, flight levels digit by digit; NINER and FIFE in altimeters and altitudes. Terminal-phase phraseology (vectors to final, approach clearances, STAR amendments, missed approach) is in the current Terminal Operating Practices (_CZQM-APP§9_), and tower-phase phraseology, readback rules and radiotelephony fundamentals are in the current Tower Operating Practices (_CZQM-TWR§5_); apply them when working those positions top-down. Where the CZQM/CZQX Phraseology Guide and this chapter differ, this chapter governs Centre positions.
 
 [10.1] # Identification and Altitude Validation
 
