@@ -1,0 +1,12 @@
+{
+  "headSha": "cc19e8100df2d351da63a33b216b7ad5aa333785",
+  "builtAt": "2026-11-19T18:35:21.379Z",
+  "documents": [
+    {
+      "group": "refs",
+      "short": "airspace-manual",
+      "version": "2.1",
+      "title": "Airspace Manual"
+    }
+  ]
+}
