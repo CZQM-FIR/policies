@@ -32,7 +32,7 @@ description: Operating practices for CZQM controllers providing services from th
 | 1.0         | 2025-05-24 0300Z | Initial version |
 | 1.1         | 2025-08-15 0300Z | Modification to 4.1.2.2 compulsory routes to reflect real world changes |
 | 1.2         | 2025-12-27 0400Z | Editorial. Change markups. Further mods to 4.1.2.2 mandatory routes. Additional procedures added for several airports |
-| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections v1.1 rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.3         | To be confirmed  | VFR procedures added for CYFC. Readback and acknowledgement rules (CAR 602.31 as amended, in force 2026-11-19) added to [[3.1]], [[3.2]], [[3.3]]; immediate take-off and ATIS identifier paragraphs added to [[3.3]]; new Phraseologies chapter ([[5]]) (Delivery, Ground, Tower, VFR, helicopters); MANOPS references replaced by references to NAV CANADA guidance material. Phraseology Supplement and Corrections rolled in: push-back ([[5.2]]), unable-clearance and protected-area forms ([[5.3]]), backtrack after landing ([[5.3]]), departure instructions before take-off and pilot-applied visual separation ([[5.4]]), circuit extras, VFR over-the-top and VFR departure on an IFR clearance ([[5.6]]), and radiotelephony fundamentals ([[5.8]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -698,7 +698,7 @@ Phraseology in this chapter follows NAV CANADA guidance material, IFR and VFR ph
 
 [5.8(e)] Similar call signs. When two or more similar call signs are on frequency: warn both to listen carefully; add the aircraft type (PIPER GRF, CESSNA GRF); require the full four-letter registration (FGRF); or instruct an airline flight to append two letters of its registration (AIR CANADA FOUR-THREE-TWO NOVEMBER CHARLIE). — IFR Phraseology p. 8
 
-[5.8(f)] HEAVY and SUPER. HEAVY is an aircraft with a maximum take-off weight of more than 136 000 kg (300 000 lb); SUPER is the A380. The suffix is required on initial contact with each ATS unit and may be dropped thereafter by both parties; the controller uses it the same way. Non-surveillance departure intervals behind a heavy: 2 minutes from the same threshold; 3 minutes when the follower starts from an intersection or will use more runway, or when the flight paths cross. ATC does not apply the 2-minute interval to a light behind a medium but issues a wake-turbulence cautionary. A VFR pilot may waive wake separation on their own initiative (the controller still issues the cautionary); the controller remains responsible for IFR departures. Surveillance wake minima are in the Terminal Operating Practices. — IFR Phraseology p. 7; AIM RAC 4.1.1
+[5.8(f)] HEAVY and SUPER. HEAVY is an aircraft with a maximum take-off weight of more than 136 000 kg (300 000 lb); SUPER is the A380. The suffix is required on initial contact with each ATS unit and may be dropped thereafter by both parties; the controller uses it the same way. Non-surveillance departure intervals behind a heavy: 2 minutes from the same threshold; 3 minutes when the follower starts from an intersection or will use more runway, or when the flight paths cross. ATC does not apply the 2-minute interval to a light behind a medium but issues a wake-turbulence cautionary. A VFR pilot may waive wake separation on their own initiative (the controller still issues the cautionary); the controller remains responsible for IFR departures. Surveillance wake minima are in the current Terminal Operating Practices. — IFR Phraseology p. 7; AIM RAC 4.1.1
 
 > *FEDEX THREE-SEVEN-TWO HEAVY, HALIFAX TOWER, RUNWAY TWO-THREE, WIND TWO-FOUR-ZERO AT TWELVE, CLEARED TO LAND RUNWAY TWO-THREE.*
 
@@ -724,7 +724,7 @@ Phraseology in this chapter follows NAV CANADA guidance material, IFR and VFR ph
 [5.9] # Sources
 
 - NAV CANADA controller guidance material.
-- TC AIM 2026-2 RAC 1.6, 4.1.1, 4.2.5, 4.2.8, 4.4.2–4.4.4, 4.4.9.
+- TC AIM (current edition) RAC 1.6, 4.1.1, 4.2.5, 4.2.8, 4.4.2–4.4.4, 4.4.9.
 - CAR 602.31 as amended by SOR/2025-226 (in force 19 November 2026).
 - NAV CANADA IFR Phraseology (p. 15, 22) and VFR Phraseology (pp. 17–48).
 
