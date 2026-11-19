@@ -25,12 +25,14 @@ description: Training reference of standard phraseology for CZQM/CZQX controller
 
 [2] # Weight Classification
 
-| Weight                                                     | Classification |
-| ---------------------------------------------------------- | -------------- |
-| Less than 7000 KG (15,500 LBS)                             | Light (L)      |
-| 7000 KG (12,500 Lbs) – Less than 135,000 KG (300,000 Lbs)  | Medium (M)     |
-| Greater than 135,000 KG (300,000 Lbs)                      | Heavy (H)      |
-| Airbus A380                                                | Super (S)      |
+| Maximum certificated take-off mass                                    | Classification  |
+| --------------------------------------------------------------------- | --------------- |
+| 7 000 kg (15 500 lb) or less                                          | Light (L)       |
+| More than 7 000 kg (15 500 lb) and less than 136 000 kg (300 000 lb) | Medium (M)      |
+| 136 000 kg (300 000 lb) or more                                       | Heavy (H)       |
+| Airbus A380                                                           | Super Heavy (S) |
+
+Source: current TC AIM, RAC 3.15.3.3 and RAC 4.1.1.
 
 \* You may omit the prefix “Heavy” & “Super” after it has first been acknowledged in the initial check-in from the controller.
 
