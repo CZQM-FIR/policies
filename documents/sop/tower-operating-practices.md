@@ -340,14 +340,10 @@ Aircraft will be taxied to the Central De-icing Facility via TWY H to hold short
 
 | Runway | Full length (approx.) | Distance remaining from intersection (approx.) |
 | ------ | --------------------- | ---------------------------------------------- |
-| 28 | 8502 ft | 02 7900 ft; 34 5200 ft |
-| 10 | 8502 ft | 34 3000 ft; 02 N/A |
-| 34 | 7005 ft | 02 5400 ft; 10 N/A |
+| 28 | 8502 ft | 34 5200 ft |
+| 10 | 8502 ft | 34 3000 ft |
+| 34 | 7005 ft | Not published |
 | 16 | 7005 ft | 10 6600 ft; J 4800 ft; G 3000 ft |
-| 02[^cyyt-0220] | 5000 ft | 34 3600 ft; C 1800 ft |
-| 20[^cyyt-0220] | 5000 ft | B 4800 ft |
-
-[^cyyt-0220]: Runway 02/20 does not appear on the current aerodrome chart; these values are to be verified.
 
 [4.5] # CYQX
 
