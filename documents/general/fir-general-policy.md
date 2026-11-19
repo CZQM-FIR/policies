@@ -288,7 +288,7 @@ Examples of appropriate controller information include:
 
 [4.10(b)(i)] Controllers wishing to reserve a position can make the reservation on their own without the help of a staff member or instructor.
 
-[4.10(b)(ii)] Reservations for training sessions shall be made by the isntructor or mentor conducting the training session. The reservation will be handled automatically by Vector.
+[4.10(b)(ii)] Reservations for training sessions shall be made by the instructor or mentor conducting the training session. The reservation will be handled automatically by [Vector](https://vector.czqm.ca).
 
 [4.10(c)] The event coordinator (or their delegate) shall be able to create reservations oh behalf of other controllers for the purpose of events. Reservations created for events shall be able to overwrite existing reservations.
 
