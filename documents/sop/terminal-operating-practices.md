@@ -197,7 +197,7 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [8.3] # IFR Clearances at non-SID aerodromes
 
-[8.3(a)] As seen in the FIR TWR Procedures document paragraph 4.1.2, IFR clearances are composed according to a standard format:
+[8.3(a)] As seen in the current Tower Operating Practices (_CZQM-TWR§5.2_), IFR clearances are composed according to a standard format:
 
 > (aircraft identification) CLEARED TO (clearance limit), (SID identifier) DEPARTURE (if SID required), (routing details), CLIMB TO (altitude) (if required), MAINTAIN MACH DECIMAL (separate digits) (if Mach # required), (additional clearance details or instructions, if required), TRAFFIC IS (traffic information) (if required).
 
