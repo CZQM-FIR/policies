@@ -31,7 +31,7 @@ description: Operating practices for CZQM controllers providing terminal control
 | --- | --- | --- |
 | 1.0 | 2025-05-24 0300Z | initial release |
 | 1.1 | 2025-06-09 0300Z | Errata corrected |
-| 1.2 | To be confirmed | Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
+| 1.2 | To be confirmed | Added Holding section ([[8.5]]). Minor edits throughout. Placeholders added for wake turbulence separation ([[6.2]]), STAR amendment phraseology ([[9.9]]) and missed approach phraseology ([[9.10]]). Reformat document to use CZQM docengine. [[2.2]] reflects new git based tracking. |
 
 [2] # Introduction
 
@@ -53,7 +53,7 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [3.2] # Approach Control
 
-[3.2(a)] VATSIM uses the expression “Approach Control” for what we, in Canada, call “Arrival Control”. An arrival controller provides lateral and vertical control instructions to aircraft leaving the enroute environment and guides them to their arrival aerodrome. The arrival controller ensures separation between aircraft, sequences arrivals and issues approach clearances and instructions.
+[3.2(a)] VATSIM uses the expression “Approach Control” for what we, in Canada, call “Arrival Control.” An arrival controller provides lateral and vertical control instructions to aircraft leaving the enroute environment and guides them to their arrival aerodrome. The arrival controller ensures separation between aircraft, sequences arrivals and issues approach clearances and instructions.
 
 [3.3] # Terminal Control
 
@@ -79,15 +79,17 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [4.1(f)] In periods of high (or pent up) departure demand versus arrival demand, it’s appropriate to convert to Departure Mode. In this mode, spacing between successive arrivals is increased as required to depart multiple departures between each arrival pair. This is a tactical decision, coordinated between Tower and Terminal. The arrival spacing should not result in excessive arrival delays, especially as these are burning more fuel than departures.
 
-[4.2] # Aircraft Arriving / Departing at controlled aerodromes
+[4.2] # Aircraft Arriving at / Departing from controlled aerodromes
 
 [4.2(a)] By “controlled aerodrome” we mean one that is served by an air traffic control tower.
 
-[4.2(b)] Standard Instrument Departures (SIDs) are published for the controlled aerodromes within this FIR and are normally applied. If required, the terminal controller may instruct the tower to issue alternative departure instructions.
+[4.2(b)] Standard Instrument Departures (SIDs) are published for some aerodromes within this FIR and are normally applied. If required, the terminal controller may instruct the tower to issue alternative departure instructions such as a new heading or altitude that differs from the published SID.
+
+[4.2(c)] Tower release (TR) authority for IFR departures from controlled aerodromes is set out in the current Tower Operating Practices (_CZQM-TWR§3.4_).
 
 [4.3] # Aircraft Arriving / Departing at uncontrolled aerodromes
 
-[4.3(a)] By “uncontrolled aerodrome” we mean one that is not served by an air traffic control tower. At these aerodromes, advisory services may, in some cases, be provided by a flight service station.
+[4.3(a)] An “uncontrolled aerodrome” refers to an aerodrome that is not served by an air traffic control tower. At these aerodromes, advisory services may, in some cases, be provided by a flight service station.
 
 [4.3(b)] As there is no control tower, the terminal controller will provide the requested IFR clearance directly to the pilot. See [[8.3]] below for best practices.
 
@@ -109,23 +111,27 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [5.3] # Metering Fix to an approach
 
-[5.3(a)] This leg connects the metering fix (e.g., LOKRI on the MINAS 1 RNAV STAR) to the start of approach. It includes a sequence of waypoints, optionally with altitude and speed constraints that manage descent and spacing into the terminal area. The segment ends near a waypoint like AVRIX, where aircraft are either vectored or cleared to proceed on a published approach.
+[5.3(a)] This leg connects the metering fix (e.g., LOKRI on the MINAS 1 RNAV STAR) to the start of an approach. It includes a sequence of waypoints, optionally with altitude and speed constraints that manage descent and spacing into the terminal area. The segment ends near a waypoint like AVRIX, where aircraft are either vectored or cleared to proceed on a published approach.
 
 [5.4] # Closed or open STAR
 
-[5.4(a)] Closed STARs are designed to guide aircraft all the way from the enroute phase to a specific final approach fix, often including altitude and speed constraints. These typically culminate in a transition directly onto an instrument approach, requiring minimal controller intervention. In contrast, Open STARs terminate before reaching the final approach course, leaving a gap that must be closed with vectors to final by the controller. Open STARs provide greater tactical flexibility and are common in complex or high-density terminal environments. [[fig:minas]] shows the MINAS1 arrival. It is closed for RWY14 and open for the other runways.
+[5.4(a)] Closed STARs are designed to guide aircraft all the way from the enroute phase to a specific final approach fix, often including altitude and speed constraints. These typically culminate in a transition directly onto an instrument approach, requiring minimal controller intervention. In contrast, Open STARs terminate before reaching the final approach course, leaving a gap that must be closed with vectors to final by the controller or with a clearance that permits the pilot to self-navigate by closing the STAR. Open STARs provide greater tactical flexibility and are common in complex or high-density terminal environments. [[fig:minas]] shows the MINAS1 arrival. It is closed for RWY14 and open for the other runways.
 
 ![CYHZ MINAS1 STAR](images/terminal/image-25.png){#fig:minas width=90%}
 
 [6] # Separation Standards
 
-[6.1] # Horizontal Separation
+[6.1] # Lateral Separation
 
 [6.1(a)] Separation standards are determined based on a set of concentric error rings. One of those rings is the display range, which enables you to accurately determine spacing between aircraft.
 
-[6.1(b)] When logged in as _APP you are deemed to be providing Terminal service, and the 3 nm horizontal separation standard applies.
+[6.1(b)] When logged in as _APP you are deemed to be providing Terminal service, and the 3 nm lateral separation standard applies.
 
 [6.1(c)] If logged in as a _CTR and controlling a designated terminal area, controllers should provide 5 NM separation unless using a separate window to provide terminal service, scaled to a normal Terminal range.
+
+[6.2] # Wake Turbulence Separation
+
+[6.2(a)] (reserved)
 
 [7] # Understanding Aircraft Performance
 
@@ -139,7 +145,7 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [7.3] # Climb Performance and Acceleration Limits
 
-[7.3(a)] Aircraft performance during climb is constrained by available thrust, aircraft weight, and configuration. After takeoff, most aircraft prioritize reaching a clean configuration (gear and flap retraction) before accelerating. Below 10,000 feet, jets are typically restricted to 250 knots IAS, limiting acceleration unless a higher speed is specifically cleared. During initial climb, especially when heavy or operating from short runways, aircraft may struggle to both climb and accelerate simultaneously. This is particularly relevant for SID compliance where altitude and speed targets occur close together. Issuing early level-offs or assigning speeds without considering climb capability can lead to missed restrictions or inefficient profiles. Controllers should allow sufficient vertical and horizontal space for aircraft to clean up and accelerate, and avoid assigning aggressive speeds during high-drag, low-energy phases of flight.
+[7.3(a)] Aircraft performance during climb is constrained by available thrust, aircraft weight, and configuration. After takeoff, most aircraft prioritize reaching a clean configuration (gear and flap retraction) before accelerating. Below 10,000 feet, jets are typically restricted to 250 knots IAS, limiting acceleration unless a higher speed is specifically issued. During initial climb, especially when heavy or operating from short runways, aircraft may struggle to both climb and accelerate simultaneously. This is particularly relevant for SID compliance where altitude and speed targets occur close together. Issuing early level-offs or assigning speeds without considering climb capability can lead to missed restrictions or inefficient profiles. Controllers should allow sufficient vertical and horizontal space for aircraft to clean up and accelerate, and avoid assigning aggressive speeds during high-drag, low-energy phases of flight.
 
 [7.4] # Speeds versus Altitude
 
@@ -151,11 +157,13 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [7.5(a)] Previously, airlines operated their aircraft using standardized climb and descent profiles. Controllers could expect an Air Canada A320 to fly like the other Air Canada A320s and the Westjet B737s to fly like their siblings. This is no longer the case.
 
-[7.5(b)] If you use SimBrief™, you may have noticed a Cost Index field in the flight plan input table. A Cost Index is basically a ratio of the Cost of Time versus the Cost of Fuel. A Cost Index of 0 means that you want the aircraft to operate as efficiently as possible. A high value Cost Index means that it’s more important to get to destination rapidly and the company is willing to pay more for the fuel. Maximum numbers vary based on aircraft manufacturers and types. In real-world operations, companies may operate using standardized cost indices or adapt them to each flight, depending on their sophistication. In our VATSIM environment, the number is at the pilot’s choice. See [[fig:simbrief]].
+[7.5(b)] If you use SimBrief, you may have noticed a Cost Index field in the flight plan input table. A Cost Index is basically a ratio of the Cost of Time versus the Cost of Fuel. A Cost Index of 0 means that you want the aircraft to operate as efficiently as possible. A high value Cost Index[^ci-max] means that it’s more important to get to destination rapidly and the company is willing to pay more for the fuel. In real-world operations, companies may operate using standardized cost indices or adapt them to each flight, depending on their sophistication. In our VATSIM environment, the number is at the pilot’s choice. See [[fig:simbrief]].
+
+[^ci-max]: Maximum numbers vary based on aircraft manufacturers and types.
 
 ![Simbrief Aircraft Info input table](images/terminal/image-33.jpeg){#fig:simbrief width=80%}
 
-[7.5(c)] Pilots operating their flight at a low cost index will climb at a high rate with a lower forward speed and will descend earlier and less steeply. The net effect on us is that we need to be prepared for a range of eventualities in terms of performance even within the same aircraft types.
+[7.5(c)] Pilots operating their flight at a low Cost Index will climb at a high rate with a lower forward speed and will descend earlier and less steeply. The net effect on us is that we need to be prepared for a range of eventualities in terms of performance even within the same aircraft types.
 
 [7.6] # Speed Profiles
 
@@ -169,9 +177,9 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [7.7(a)] Pilot experience and capability on VATSIM vary widely—from real-world airline captains to first-time sim users. Controllers should remain adaptable and patient, recognizing that some pilots may be unfamiliar with STARs, altitude constraints, or phraseology. Use plain language when needed, offer clarification proactively, and prioritize safe, efficient service over rigid adherence to expectations. When workload permits, brief guidance can improve the pilot’s understanding and benefit future operations. The goal is to maintain realism while ensuring that all participants enjoy a positive and inclusive experience.
 
-[7.7(b)] Of particular concern in the terminal environment are pilots who have ‘closed’ the STAR by deleting the discontinuity well before being cleared for the approach! See [[fig:discontinuity]].
+[7.7(b)] Of particular concern in the terminal environment are pilots who have ‘closed’ the STAR by deleting the discontinuity well before being cleared for the approach! This means that they will make a turn to final when you may be expecting them to continue on the published heading after passing a given fix. See [[fig:discontinuity]].
 
-![Discontinuity between the STAR and the Initial Approach Fix (LEROS)](images/terminal/image-169.jpeg){#fig:discontinuity width=70%}
+![Discontinuity between the STAR and the Initial Approach Fix (LEROS)](images/terminal/discontinuity-leros.png){#fig:discontinuity width=70%}
 
 [8] # Best Practices
 
@@ -185,27 +193,30 @@ description: Operating practices for CZQM controllers providing terminal control
 
 [8.2] # Use of STARs to manage arrival sequences
 
-[8.2(a)] The STARs in this FIR are recently and very well designed.
+[8.2(a)] The STARs in this FIR are recent and very well designed.
 
 [8.2(b)] They provide you with downwind legs that are a good distance (5 NM) abeam the airport. This is good to cross departures underneath and to manage a good base leg if required. Make good use of them.
 
-[8.2(c)] If you will not assign a T approach transition, beware of pilots who may have “closed” an open STAR without clearance. You should ensure they will continue on the downwind leg by use of a positive instruction. Keep it simple and unambiguous. A T-shaped transition is typically part of an ILS or RNAV Z approach.
+[8.2(c)] If you will not assign a T[^t-transition] approach transition, beware of pilots who may have “closed” an open STAR without clearance. You should ensure they will continue on the downwind leg by use of a positive instruction. Keep it simple and unambiguous.
+
+[^t-transition]: T shaped transition typically as part of an ILS or RNAV Z approach.
 
 [8.3] # IFR Clearances at non-SID aerodromes
 
-[8.3(a)] As seen in the FIR TWR Procedures document paragraph 4.1.2, IFR clearances are composed according to a standard format:
+[8.3(a)] As seen in the current Tower Operating Practices (_CZQM-TWR§5.2_), IFR clearances are composed according to a standard format:
 
-> (aircraft identification) CLEARED TO (clearance limit), (SID identifier) DEPARTURE (if SID required), (routing details), CLIMB TO (altitude) (if required), MAINTAIN MACH DECIMAL (separate digits) (if mach # required), (additional clearance details or instructions, if required), TRAFFIC IS (traffic information) (if required).
+> (aircraft identification) CLEARED TO (clearance limit), (SID identifier) DEPARTURE (if SID required), (routing details), CLIMB TO (altitude) (if required), MAINTAIN MACH DECIMAL (separate digits) (if Mach # required), (additional clearance details or instructions, if required), TRAFFIC IS (traffic information) (if required).
 
-[8.3(b)] In the case of non-SID aerodromes, the SID portion does not exist, requiring a mode detailed clearance formulation.
+[8.3(b)] In the case of non-SID aerodromes, the SID portion does not exist, requiring a more detailed clearance formulation.
 
-[8.3(c)] IFR clearances are required to permit the flight to fly in accordance with IFR to its destination. Ad hoc clearances consider the tactical situation:
+[8.3(c)] IFR clearances are required to permit the flight to fly in accordance with IFR to its destination. Ad hoc clearances shall consider the tactical situation:
 
 - What is the traffic situation?
 - How detailed do I need to be?
 - Do I need to specify a runway?
-- How long shall I keep the clearance valid? 30 minutes is a reasonable rule of thumb but it may be adapted as required based on the circumstances.
-- Etc.
+- How long shall I keep the clearance valid prior to departure?[^validity]
+
+[^validity]: 30 minutes is a reasonable rule of thumb, but it may be adapted as required based on the circumstances.
 
 [8.3(d)] There is no need or value in making clearances any more complicated than necessary.
 
@@ -223,11 +234,51 @@ description: Operating practices for CZQM controllers providing terminal control
 | --- | --- |
 | Simple | GMAZ, cleared to the Deer Lake airport, via flight planned route, maintain 8000 feet, squawk 3021, when leaving 3000 Contact Me on this frequency, Clearance cancelled if not airborne before (time / event) |
 | Specifying runway and a heading | GMAZ, cleared to the Deer Lake airport, via direct, maintain 8000 feet, depart runway zero six turn left heading zero four zero until able direct, squawk 3021, when leaving 3000 Contact Me on this frequency, Clearance cancelled if not airborne before (time / event) |
-| Specifying an altitude restriction (due to aircraft holding to the northeast?) | GUGH, cleared to the Goose Bay airport, via direct IRKON Direct NUDOV, flight planned route, maintain Flight Level 220, depart runway 27 proceed on course, not above 5000 until IRKON, squawk 3021, Clearance cancelled if not airborne before (time / event) |
+| Specifying an altitude restriction (due to aircraft holding to the northeast for example) | GUGH, cleared to the Goose Bay airport, via direct IRKON Direct NUDOV, flight planned route, maintain Flight Level 220, depart runway 27 proceed on course, not above 5000 until IRKON, squawk 3021, Clearance cancelled if not airborne before (time / event) |
 
 [8.4] # Crossing Departure versus Arrival Traffic
 
 [8.4(a)] Best practice is to cross a departure under the (STAR) path of arrival aircraft close to the departure airport. The further the crossing point is from the airport, the more likely that both aircraft will want to operate at the same altitude.
+
+[8.5] # Holding
+
+[8.5(a)] Holding aircraft is a traffic management strategy that can be employed for several reasons:
+
+- The aircraft requests it for training purposes.
+- The aircraft requests it to address a technical issue.
+- The aircraft requests it while it waits for weather to improve.
+- At the end of a published Missed Approach Procedure, while the controller makes other arrangements to re-sequence the flight.
+- There is excessive air traffic demand that cannot be adequately managed using other strategies.
+- An arriving aircraft is so high on descent that it cannot reach the runway without significant path stretching, and a hold is the best solution.
+
+[8.5(b)] Sample clearances. It is standard practice to include the cleared altitude with the holding instructions.
+
+| Situation | Clearance |
+| --- | --- |
+| Clearance to a published hold with Expect Further Clearance Time | “BAW4, CLEARED TO MUVOX, MAINTAIN 1 1 THOUSAND, HOLD AS PUBLISHED. EXPECT FURTHER CLEARANCE AT (time)” |
+| Clearance to a published hold with instruction to depart the holding fix at a specific time | “BAW4, CLEARED TO MUVOX, HOLD AS PUBLISHED. DEPART MUVOX AT (time)” |
+| Clearance to a non-published hold | “CLEARED TO KATLO, HOLD EAST ON 270 INBOUND TRACK. EXPECT FURTHER CLEARANCE AT (time)” |
+| Instruction to leave the hold and resume following a STAR | “BAW4 PROCEED DIRECT MUVOX, rejoin STAR.” |
+
+[8.5(c)] Although holding patterns can be established anywhere, it is best to hold aircraft at a published holding pattern.
+
+[8.5(d)] It is best to hold aircraft higher than lower, for fuel conservation.
+
+[8.5(e)] The usual strategy to manage holding stacks is to
+
+[8.5(e)(i)] Hold the first (lowest) aircraft at a reasonable altitude that will allow it to rejoin the STAR upon exiting the hold. In the case of the CYHZ holding patterns, 14000 feet is a good base altitude.
+
+[8.5(e)(ii)] Establish aircraft in the hold and descend them while in the hold to the exit (base) altitude.
+
+[8.5(e)(iii)] No horizontal separation exists between holding aircraft. Vertical separation must be applied.
+
+[8.5(e)(iv)] Subsequent holding aircraft cannot be cleared lower than the altitude vacated by the next lowest aircraft. E.g. WJA275 is holding at MUVOX; Cleared to 140; Mode C observed at 167 descending. DAL220 is the next aircraft cleared to hold at MUVOX; it could be cleared as low as 170. Aircraft performance must be kept in mind to ensure that a minimum of 1000 separation will exist through the evolution.
+
+[8.5(e)(v)] The lower aircraft reports vacating 160, then it can be assigned to the next aircraft.
+
+[8.5(e)(vi)] As aircraft descend in the hold, the controller “ladders down” each subsequent aircraft, while ensuring vertical separation.
+
+[8.5(f)] Once the lowest aircraft is clear laterally of the holding stack, the remaining aircraft can then be descended progressively.
 
 [9] # Phraseologies
 
@@ -236,19 +287,20 @@ description: Operating practices for CZQM controllers providing terminal control
 [9.1(a)] You need not issue information included in the current ATIS broadcast, provided that conditions are not changing rapidly.
 
 [9.2] # Vector Initiation Examples
+When initiating a vector, the controller must include the reason for the vector, and as required, the point or course to which the aircraft will be vectored. Controllers should provide an estimate of the number of track miles to be flown on the vector for an arriving aircraft, if known, to aid the pilot’s ability to manage descent.
 
-[9.2(a)] Initiating
+[9.2(a)] Initiating a vector
 
 - VECTORS DUE TRAFFIC, FLY HEADING THREE-ONE-ZERO, EXPECT DIRECT OKREV IN TWO-ZERO MILES.
 - FLY HEADING THREE-ONE-ZERO, VECTORS FOR SEQUENCING, EXPECT A ONE-FIVE MILE FINAL.
 - STAR CANCELLED, FLY HEADING ONE-FOUR-ZERO, VECTORS TO FINAL EXPECT BASE TURN IN SIX MILES.
 
-[9.2(b)] After the approach interface waypoint (e.g. DUTIR)
+[9.2(b)] After the approach interface waypoint to continue a downwind (e.g. DUTIR)
 
 - MAINTAIN PRESENT HEADING, EXPECT A ONE-ZERO MILE FINAL.
 - MAINTAIN PRESENT HEADING, EXPECT BASE LEG SIX MILES.
 
-[9.2(c)] Terminating
+[9.2(c)] Terminating vector by sending aircraft direct a waypoint to rejoin the STAR
 
 - PROCEED DIRECT MUVOX, REJOIN STAR.
 
@@ -281,13 +333,13 @@ description: Operating practices for CZQM controllers providing terminal control
 [9.5(b)] Maintain Speed Assignment Examples
 
 - MAINTAIN PRESENT SPEED
-- MAINTAIN 250 KNOTS
+- MAINTAIN SPEED 250 KNOTS
 - SPEED 210 KNOTS
 
 [9.5(c)] Reduction Examples
 
-- SPEED 250 KNOTS OR LESS
-- DO NOT EXCEED 250 KNOTS
+- MAINTAIN SPEED 250 KNOTS OR LESS
+- REDUCE SPEED 210 KNOTS OR LESS
 - REDUCE TO MINIMUM CLEAN SPEED
 - REDUCE TO MINIMUM APPROACH SPEED
 - REDUCE SPEED BY 30 KNOTS
@@ -339,12 +391,20 @@ CLEARED TO THE HALIFAX AIRPORT ILS RUNWAY 23 APPROACH DUTIR TRANSITION
 [9.8(c)] Examples
 
 - PRM4211 TURN RIGHT HEADING 260 TO INTERCEPT FINAL APPROACH COURSE INBOUND (followed by an approach clearance when suitable)
-- PRM4211 PROCEED DIRECT LEROS, CLEARED ILS RUNWAY 23 APPROACH
-- PRM4211 CLEARED TO THE HALIFAX AIRPORT RNAV ZULU RUNWAY TWO THREE APPROACH
+- PRM4211 PROCEED DIRECT LEROS, CLEARED ILS RUNWAY 2 3 APPROACH
+- PRM4211 CLEARED TO THE HALIFAX AIRPORT RNAV ZULU RUNWAY 2 3 APPROACH
 - PRM4211, VIA FUNDY5 ARRIVAL, CLEARED ILS RUNWAY 2 3 APPROACH.
 - PRM4211, VIA DIRECT DUTIR, CLEARED HALIFAX AIRPORT ILS RUNWAY 2 3 APPROACH
 
-[9.8(d)] Do not clear an aircraft for a simulated approach. You may, however, approve a simulated approach: GMPC ILS 23 APPROACH APPROVED. MAINTAIN V F R.
+[9.8(d)] Do not clear a VFR aircraft for a simulated approach. You may, however, approve a simulated approach: GMPC ILS 23 APPROACH APPROVED. MAINTAIN V F R.
+
+[9.9] # STAR Amendments
+
+[9.9(a)] (reserved)
+
+[9.10] # Missed Approach
+
+[9.10(a)] (reserved)
 
 [10] # Unit-Specific Guidance
 
@@ -360,11 +420,17 @@ CLEARED TO THE HALIFAX AIRPORT ILS RUNWAY 23 APPROACH DUTIR TRANSITION
 
 [10.3(a)] Approaches to Rwy 33 are restricted to those aircraft that can fly an RNAV Y approach. Runway 33 will not normally be advertised as an IFR arrival runway.
 
-[10.3(b)] Due to the proximity of the CYRs to the Southeast of the airport, aircraft from the East and Southeast will normally be cleared to CYFC for an approach via NOSUL, which provides a long transition for the ILS, RNAV Z and RNAV Y approaches.
+[10.3(b)] Due to the proximity of the CYRs to the Southeast of the airport, aircraft from the East and Southeast will normally be cleared to CYFC for an approach via NOSUL (or VIBMA from CYQM and East), which provide a long transition for the ILS, RNAV Z and RNAV Y approaches.
 
 [10.4] # CYSJ [CYSJ_APP]
 
-[10.4(a)] Due to the proximity of the CYRs between CYFC and CYSJ, aircraft from the North and East of CYSJ will normally be cleared to CYSJ for an approach via ITMAK which provides a long transition for the ILS, RNAV Z and RNAV Y approaches.
+[10.4(a)] Due to the proximity of the CYRs between CYFC and CYSJ, aircraft from the West, North and East of CYSJ will normally be cleared to CYSJ for an approach via an Initial Fix that provides a long transition for the approaches while ensuring separation from the Restricted airspace. See [[fig:cysj-apch-05]], [[fig:cysj-apch-14]] and [[fig:cysj-apch-23]].
+
+![Approaches to CYSJ RWY 05](images/terminal/cysj-apch-05.png){#fig:cysj-apch-05 width=60%}
+
+![Approaches to CYSJ RWY 14](images/terminal/cysj-apch-14.png){#fig:cysj-apch-14 width=75%}
+
+![Approaches to CYSJ RWY 23](images/terminal/cysj-apch-23.png){#fig:cysj-apch-23 width=100%}
 
 [10.5] # Tri-Terminal [CZQM_L_APP]
 
@@ -374,7 +440,7 @@ CLEARED TO THE HALIFAX AIRPORT ILS RUNWAY 23 APPROACH DUTIR TRANSITION
 
 [10.5(c)] Operation of this sector requires an S3 rating or above.
 
-[10.5(d)] CZQM_L_APP will automatically connect as 124.400 but should cross-couple 119.200 manually using the Audio For VATSIM XC function, or the identical Track Audio function.
+[10.5(d)] CZQM_L_APP will automatically connect as 119.200 but should cross-couple 124.400 manually using the Audio For VATSIM XC function, or the identical Track Audio function.
 
 [10.5(e)] When aircraft transfer between the CYHZ and CYQM / CYSJ Terminals, they should be instructed to change to the respective frequency. For instance, ACA123 flying CYHZ to CYQM should be told to contact 124.400 prior to crossing the boundary. Though one controller operates both frequencies, this is done for operational clarity and pilot understanding, ensuring both effective controller relief and effective flying. Phraseology is as follows: [CALLSIGN], Moncton Centre, Change to my frequency [FREQ].
 
