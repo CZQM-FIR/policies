@@ -290,7 +290,7 @@ Examples of appropriate controller information include:
 
 [4.10(b)(ii)] Reservations for training sessions shall be made by the isntructor or mentor conducting the training session. The reservation will be handled automatically by Vector.
 
-[4.10(c)] The event coordinator (or their deligate) shall be able to create reservations oh behalf of other controllers for the purpose of events. Reservations created for events shall be able to overwrite existing reservations.
+[4.10(c)] The event coordinator (or their delegate) shall be able to create reservations oh behalf of other controllers for the purpose of events. Reservations created for events shall be able to overwrite existing reservations.
 
 [4.10(d)] Reservations for a position may only be made based on the controller's current control authorization as outlined in [[4.1]]. Students in training for a position who do not currently hold a solo shall make their reservations via the instructor or mentor supervising them as outlined in [[4.10(b)(ii)]].
 
