@@ -9,6 +9,7 @@ effectiveTime: 0300Z
 cover: true
 notice: For Flight Simulation Use Only
 description: Policy for the CZQM/CZQX (Moncton / Gander) VATSIM FIR, effective 2025-05-24 0300Z. Covers conduct, training, controlling, software use, administration and the FIR organizational structure.
+draft: true
 ---
 
 [1] # Control Pages
@@ -56,9 +57,9 @@ description: Policy for the CZQM/CZQX (Moncton / Gander) VATSIM FIR, effective 2
 
 [2.3] # Amendments
 
-[2.3(a)] Amendments to this policy and all other policies published by the CZQM / QX FIR shall be tracked and versioned using the CZQM-FIR/policies GitHub repository
+[2.3(a)] Amendments to this policy and all other policies published by the CZQM / CZQX FIR shall be tracked and versioned using the CZQM-FIR/policies GitHub repository.
 
-[2.3(b)] Amendments shall be tracked in a "Revision Records" table as found in
+[2.3(b)] Amendments shall be tracked in the "Revision Records" table in section [[1.2]].
 
 [2.4] # FIR Document Organization
 
@@ -106,10 +107,10 @@ Examples of appropriate controller information include:
 
 [2.5(g)] At the discretion of the CZQM FIR Chief and Chief Instructor, a student's training may be halted temporarily while a possible policy violation is investigated.
 
-[2.5(h)] Potential disciplinary actions include:
+[2.5(h)] Potential responses to a policy violation include:
 
 - Counseling
-- VATSIM Supervisory DCRM Referral
+- Referral to VATSIM Standards and Compliance through the applicable VATSIM process
 - Removal from CZQM
 
 [3] # Training Policy and Standards
@@ -126,7 +127,7 @@ Examples of appropriate controller information include:
 
 [3.2(a)] Mentors and instructors guide and teach junior members. They are expected to lead by example. They are expected to have an increased knowledge of the documents mentioned in paragraph [[2.5(a)]] above as they apply to the instruction of new students, solo permissions and student promotions.
 
-[3.2(b)] Instructor roles and responsibilities are detailed in paragraph [[7.7]] below this is a test.
+[3.2(b)] Instructor roles and responsibilities are detailed in paragraph [[7.7]] below.
 
 [3.2(c)] Mentor roles and responsibilities are detailed in paragraph [[7.8]] below.
 
@@ -169,6 +170,10 @@ Examples of appropriate controller information include:
 [4.1(b)] A student with a solo endorsement may only exercise the privileges of that endorsement to control the position to which their solo pertains. Soloing students may control other positions if being monitored or supervised by a mentor or instructor.
 
 [4.1(c)] Moncton Centre (CZQM_CTR) and Gander Centre (CZQX_CTR) are enroute sectors and as such require the appropriate Tier 2 controller endorsement. All other positions in this FIR are "unrestricted."
+
+[4.1(c)(i)] VATCAN maintains the current list of tier-designated positions in DP003, available on the [VATCAN Documents page](https://vatcan.ca/division/documents).
+
+[4.1(c)(ii)] In the event of a discrepancy, VATCAN's current list of tier-designated positions takes precedence over the classifications in this paragraph.
 
 [4.2] # Currency
 
@@ -290,7 +295,7 @@ Examples of appropriate controller information include:
 
 [4.10(b)(ii)] Reservations for training sessions shall be made by the instructor or mentor conducting the training session. The reservation will be handled automatically by [Vector](https://vector.czqm.ca).
 
-[4.10(c)] The event coordinator (or their delegate) shall be able to create reservations oh behalf of other controllers for the purpose of events. Reservations created for events shall be able to overwrite existing reservations.
+[4.10(c)] The event coordinator (or their delegate) may create reservations on behalf of other controllers for events and may overwrite existing reservations when doing so.
 
 [4.10(d)] A reservation for a position may only be made based on the controller's current control authorization as outlined in [[4.1]]. Students in training for a position who do not currently hold a solo shall make their reservations via the instructor or mentor supervising them as outlined in [[4.10(b)(ii)]].
 
@@ -301,6 +306,8 @@ Examples of appropriate controller information include:
 [4.10(e)(ii)] A reservation shall start at the top or bottom of the hour.
 
 [4.10(e)(iii)] Controllers shall not have more than 2 hours of reservation time per Atlantic Time (UTC-3 / UTC-4) calendar day. This shall only apply to bookings made under [[4.10(b)(i)]].
+
+[4.10(e)(iv)] Controllers shall not hold consecutive reservations totaling more than 2 hours, regardless of the calendar date. This shall only apply to bookings made under [[4.10(b)(i)]].
 
 [4.10(f)] Reservation lead time parameters are as follows:
 
