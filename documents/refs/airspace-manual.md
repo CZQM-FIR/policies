@@ -140,17 +140,17 @@ Note that the CZQM-CZQX boundary FL290 and above is located further East than th
 
 ![Gander Centre high level airspace (FL290 - FL600)](images/airspace/czqx-high-level.png){#fig:czqx-high-level width=55%}
 
-[5.1(c)] # Cross the Pond (CTP)
+[5.1(c)] # High Volume Sectorizations
 
 [5.1(c)(i)] # General
-Large events, such as Cross the Pond, introduce large volumes of traffic that require airspace configurations that differ from those of routine operations. This sector deals with this high volume sectorization.
+Large events, such as Cross the Pond, introduce large volumes of traffic that require airspace sectorizations that differ from consolidated airspace routine operations. This section describes the current high volume sectorization.
 
 Positions are named based on their FIR and numbered increasing from South to North. Each position shares an east-west boundary with its correspondingly numbered counterpart (CZQM1 is adjacent to CZQX1). Position boundaries are also aligned with adjacent domestic FIR (Montreal, Boston) sector boundaries to simplify coordination. Oceanic sector boundaries may vary depending on the event.
 
 These are High Level Airspace positions (FL290+).
 
 [5.1(c)(ii)] # Consolidations
-Sector consolidations are meant to remove traffic progressively from the main Centre. In addition, they are designed to be “fail soft” to minimize disruption should a position’s connection fail.
+ATC connections to their control positions are known to fail. In order to minimize disruptions, the 1-4 positions in each FIR will back up its corresponding position. e.g. should QM1 connection fail, QX1 would take over both sectors. Should both QM1 and QX1 fail, the sectors revert to CZQM_CTR.
 
 [5.1(c)(iii)] # Moncton
 
